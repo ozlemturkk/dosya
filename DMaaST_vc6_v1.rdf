@@ -1,0 +1,284 @@
+@prefix vc6:   <https://dmast.eu/vc6#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <http://schema.org/> .
+@prefix ssn:   <http://www.w3.org/ns/ssn/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+
+
+### ==========
+### ONTOLOGY
+### ==========
+vc6: a rdf:Property .  # (no-op: keeps some tools happy)
+vc6:Ontology a owl:Ontology ;
+  rdfs:label "DMaaST Value Chain Core (vc6) – v0.6" ;
+  rdfs:comment "Core classes & properties aligned with the project’s Target Data Mapping (Supplier, Logistics, Warehouse, Production, QA, Customer, Energy) and the six-stage generic flow." .
+
+### ====================
+### TOP-LEVEL CLASSES
+### ====================
+vc6:BusinessObject a rdfs:Class ; rdfs:label "Business Object" .
+vc6:Organization   a rdfs:Class ; rdfs:subClassOf vc6:BusinessObject ; rdfs:label "Organization" .
+vc6:Supplier       a rdfs:Class ; rdfs:subClassOf vc6:Organization ; rdfs:label "Supplier" .
+vc6:Customer       a rdfs:Class ; rdfs:subClassOf vc6:Organization ; rdfs:label "Customer" .
+
+vc6:Warehouse      a rdfs:Class ; rdfs:label "Warehouse" .
+vc6:WarehouseLocation a rdfs:Class ; rdfs:label "Warehouse Location" ; rdfs:subClassOf schema:Place .
+
+vc6:Product        a rdfs:Class ; rdfs:label "Product" .
+vc6:Stock          a rdfs:Class ; rdfs:label "Stock Item" .
+vc6:Order          a rdfs:Class ; rdfs:label "Order" .
+vc6:SupplierOrder  a rdfs:Class ; rdfs:subClassOf vc6:Order ; rdfs:label "Supplier Order" .
+vc6:CustomerOrder  a rdfs:Class ; rdfs:subClassOf vc6:Order ; rdfs:label "Customer Order" .
+
+vc6:LogisticsOperation a rdfs:Class ; rdfs:label "Logistics Operation" .
+vc6:ExternalLogistics   a rdfs:Class ; rdfs:subClassOf vc6:LogisticsOperation ; rdfs:label "External Logistics" .
+vc6:InternalLogistics   a rdfs:Class ; rdfs:subClassOf vc6:LogisticsOperation ; rdfs:label "Internal Logistics" .
+vc6:TransportMode      a rdfs:Class ; rdfs:label "Transport Mode" .
+
+vc6:Production      a rdfs:Class ; rdfs:label "Production (Black-Box)" .
+vc6:Process         a rdfs:Class ; rdfs:label "Process" .
+vc6:ProcessStep     a rdfs:Class ; rdfs:subClassOf vc6:Process ; rdfs:label "Process Step" .
+
+vc6:QualityAssurance a rdfs:Class ; rdfs:label "Quality Assurance" .
+vc6:DefectiveProduct a rdfs:Class ; rdfs:label "Defective Product" .
+
+vc6:EnergyObservation a rdfs:Class ; rdfs:subClassOf ssn:Observation ;
+  rdfs:label "Energy Observation" .
+
+### ===============
+### LAYER CONCEPTS
+### ===============
+vc6:Layer a rdfs:Class ; rdfs:label "Value-Chain Layer" .
+vc6:SuppliersLayer a rdfs:Class ; rdfs:subClassOf vc6:Layer .
+vc6:ExternalLogisticsLayer a rdfs:Class ; rdfs:subClassOf vc6:Layer .
+vc6:WarehouseLayer a rdfs:Class ; rdfs:subClassOf vc6:Layer .
+vc6:InternalLogisticsLayer a rdfs:Class ; rdfs:subClassOf vc6:Layer .
+vc6:ProductionLayer a rdfs:Class ; rdfs:subClassOf vc6:Layer .
+vc6:CustomersLayer a rdfs:Class ; rdfs:subClassOf vc6:Layer .
+
+### ===================
+### OBJECT PROPERTIES
+### ===================
+vc6:placedAt a rdf:Property, owl:ObjectProperty ;
+  rdfs:domain vc6:BusinessObject ; rdfs:range schema:Place ;
+  rdfs:label "placed at" .
+
+vc6:locatedIn a rdf:Property, owl:ObjectProperty ;
+  rdfs:domain vc6:Warehouse ; rdfs:range vc6:WarehouseLocation ;
+  rdfs:label "located in" .
+
+vc6:hasStockItem a rdf:Property, owl:ObjectProperty ;
+  rdfs:domain vc6:Warehouse ; rdfs:range vc6:Stock ;
+  rdfs:label "has stock item" .
+
+vc6:stocksProduct a rdf:Property, owl:ObjectProperty ;
+  rdfs:domain vc6:Stock ; rdfs:range vc6:Product ;
+  rdfs:label "stocks product" .
+
+vc6:orders a rdf:Property, owl:ObjectProperty ;
+  rdfs:domain vc6:Organization ; rdfs:range vc6:Order ;
+  rdfs:label "orders" .
+
+vc6:orderedFrom a rdf:Property, owl:ObjectProperty ;
+  rdfs:domain vc6:SupplierOrder ; rdfs:range vc6:Supplier ;
+  rdfs:label "ordered from" .
+
+vc6:orderedBy a rdf:Property, owl:ObjectProperty ;
+  rdfs:domain vc6:CustomerOrder ; rdfs:range vc6:Customer ;
+  rdfs:label "ordered by" .
+
+vc6:deliversTo a rdf:Property, owl:ObjectProperty ;
+  rdfs:domain vc6:ExternalLogistics ; rdfs:range vc6:Organization ;
+  rdfs:label "delivers to" .
+
+vc6:transports a rdf:Property, owl:ObjectProperty ;
+  rdfs:domain vc6:LogisticsOperation ; rdfs:range vc6:Product ;
+  rdfs:label "transports" .
+
+vc6:usesTransportMode a rdf:Property, owl:ObjectProperty ;
+  rdfs:domain vc6:LogisticsOperation ; rdfs:range vc6:TransportMode ;
+  rdfs:label "uses transport mode" .
+
+vc6:feeds a rdf:Property, owl:ObjectProperty ;
+  rdfs:domain vc6:Warehouse ; rdfs:range vc6:Production ;
+  rdfs:label "feeds (warehouse → production)" .
+
+vc6:produces a rdf:Property, owl:ObjectProperty ;
+  rdfs:domain vc6:Production ; rdfs:range vc6:Product ;
+  rdfs:label "produces" .
+
+vc6:fulfills a rdf:Property, owl:ObjectProperty ;
+  rdfs:domain vc6:Product ; rdfs:range vc6:CustomerOrder ;
+  rdfs:label "fulfills (product → customer order)" .
+
+vc6:hasQA a rdf:Property, owl:ObjectProperty ;
+  rdfs:domain vc6:Production ; rdfs:range vc6:QualityAssurance ;
+  rdfs:label "has QA" .
+
+vc6:observedBy a rdf:Property, owl:ObjectProperty ;
+  rdfs:domain vc6:EnergyObservation ; rdfs:range vc6:Production ;
+  rdfs:label "observed by (energy → production)" .
+
+vc6:belongsToLayer a rdf:Property, owl:ObjectProperty ;
+  rdfs:domain vc6:BusinessObject ; rdfs:range vc6:Layer ;
+  rdfs:label "belongs to layer" .
+
+### =================
+### DATA PROPERTIES
+### =================
+vc6:id          a owl:DatatypeProperty ; rdfs:range xsd:string ; rdfs:label "id" .
+vc6:name        a owl:DatatypeProperty ; rdfs:range xsd:string ; rdfs:label "name" .
+vc6:quantity    a owl:DatatypeProperty ; rdfs:range xsd:decimal ; rdfs:label "quantity" .
+vc6:unitPrice   a owl:DatatypeProperty ; rdfs:range xsd:decimal ; rdfs:label "unit price" .
+vc6:weight      a owl:DatatypeProperty ; rdfs:range xsd:decimal ; rdfs:label "weight" .
+vc6:dimension   a owl:DatatypeProperty ; rdfs:range xsd:string ;  rdfs:label "dimension" .
+vc6:expirationDate a owl:DatatypeProperty ; rdfs:range xsd:date ; rdfs:label "expiration date" .
+
+vc6:route       a owl:DatatypeProperty ; rdfs:range xsd:string ; rdfs:label "route" .
+vc6:departureTime a owl:DatatypeProperty ; rdfs:range xsd:dateTime ; rdfs:label "departure time" .
+vc6:expectedTime a owl:DatatypeProperty ; rdfs:range xsd:dateTime ; rdfs:label "expected delivery time" .
+vc6:deliveryTime a owl:DatatypeProperty ; rdfs:range xsd:dateTime ; rdfs:label "delivery time" .
+vc6:defectiveRate a owl:DatatypeProperty ; rdfs:range xsd:decimal ; rdfs:label "defective rate" .
+
+vc6:capacity    a owl:DatatypeProperty ; rdfs:range xsd:decimal ; rdfs:label "capacity" .
+vc6:condition   a owl:DatatypeProperty ; rdfs:range xsd:string ;  rdfs:label "condition" .
+vc6:locationTxt a owl:DatatypeProperty ; rdfs:range xsd:string ;  rdfs:label "location (text)" .
+
+vc6:energyUse   a owl:DatatypeProperty ; rdfs:range xsd:decimal ; rdfs:label "energy consumption" .
+vc6:energyTariff a owl:DatatypeProperty ; rdfs:range xsd:decimal ; rdfs:label "energy tariff" .
+vc6:renewableShare a owl:DatatypeProperty ; rdfs:range xsd:decimal ; rdfs:label "renewable share" .
+
+vc6:status      a owl:DatatypeProperty ; rdfs:range xsd:string ;  rdfs:label "status" .
+vc6:startDate   a owl:DatatypeProperty ; rdfs:range xsd:dateTime ; rdfs:label "start date" .
+vc6:endDate     a owl:DatatypeProperty ; rdfs:range xsd:dateTime ; rdfs:label "end date" .
+vc6:waste       a owl:DatatypeProperty ; rdfs:range xsd:decimal ; rdfs:label "waste" .
+vc6:reworkCount a owl:DatatypeProperty ; rdfs:range xsd:decimal ; rdfs:label "rework count" .
+vc6:inspectionCost a owl:DatatypeProperty ; rdfs:range xsd:decimal ; rdfs:label "inspection cost" .
+vc6:revenue     a owl:DatatypeProperty ; rdfs:range xsd:decimal ; rdfs:label "revenue" .
+vc6:satisfactionScore a owl:DatatypeProperty ; rdfs:range xsd:decimal ; rdfs:label "customer satisfaction score" .
+
+### =====================================
+### MINIMAL DOMAIN/RANGE ANNOTATIONS
+### =====================================
+# Examples (kept light so the file stays easy to extend)
+vc6:quantity rdfs:domain vc6:Stock .
+vc6:unitPrice rdfs:domain vc6:Stock .
+vc6:revenue rdfs:domain vc6:CustomerOrder .
+vc6:deliveryTime rdfs:domain vc6:LogisticsOperation .
+vc6:energyUse rdfs:domain vc6:EnergyObservation .
+
+### =======================
+### LAYER MEMBERSHIPS
+### =======================
+vc6:Supplier rdfs:subClassOf [ a owl:Restriction ;
+    owl:onProperty vc6:belongsToLayer ; owl:hasValue vc6:SuppliersLayer ] .
+
+vc6:ExternalLogistics rdfs:subClassOf [ a owl:Restriction ;
+    owl:onProperty vc6:belongsToLayer ; owl:hasValue vc6:ExternalLogisticsLayer ] .
+
+vc6:Warehouse rdfs:subClassOf [ a owl:Restriction ;
+    owl:onProperty vc6:belongsToLayer ; owl:hasValue vc6:WarehouseLayer ] .
+
+vc6:InternalLogistics rdfs:subClassOf [ a owl:Restriction ;
+    owl:onProperty vc6:belongsToLayer ; owl:hasValue vc6:InternalLogisticsLayer ] .
+
+vc6:Production rdfs:subClassOf [ a owl:Restriction ;
+    owl:onProperty vc6:belongsToLayer ; owl:hasValue vc6:ProductionLayer ] .
+
+vc6:Customer rdfs:subClassOf [ a owl:Restriction ;
+    owl:onProperty vc6:belongsToLayer ; owl:hasValue vc6:CustomersLayer ] .
+
+### =========================
+### 1) PART – PRODUCT ilişkisi
+### =========================
+vc6:Part a rdfs:Class ; rdfs:label "Part (Component)" .
+vc6:isManufacturedFrom a rdf:Property, owl:ObjectProperty ;
+  rdfs:domain vc6:Product ; rdfs:range vc6:Part ;
+  rdfs:label "is manufactured from" ;
+  rdfs:comment "Final product – component relationship (BOM-like link)." .
+
+# (Opsiyonel: ileriye dönük soru)
+vc6:hasBOMItem a rdf:Property, owl:ObjectProperty ;
+  rdfs:domain vc6:Product ; rdfs:range vc6:Part ;
+  rdfs:label "has BOM item" .
+
+### =======================================
+### 2) CUSTOMER SERVICE & RETURNS süreci
+### =======================================
+vc6:CustomerService a rdfs:Class ; rdfs:label "Customer Service" ;
+  rdfs:subClassOf vc6:BusinessObject .
+
+vc6:Return a rdfs:Class ; rdfs:label "Return" ;
+  rdfs:subClassOf vc6:BusinessObject .
+
+vc6:handlesReturn a rdf:Property, owl:ObjectProperty ;
+  rdfs:domain vc6:CustomerService ; rdfs:range vc6:Return ;
+  rdfs:label "handles return" .
+
+vc6:relatesToOrder a rdf:Property, owl:ObjectProperty ;
+  rdfs:domain vc6:Return ; rdfs:range vc6:CustomerOrder ;
+  rdfs:label "relates to order" .
+
+# ilgili veri alanları
+vc6:returnReason a owl:DatatypeProperty ; rdfs:range xsd:string ; rdfs:label "return reason" .
+vc6:supportCost  a owl:DatatypeProperty ; rdfs:range xsd:decimal ; rdfs:label "support cost" .
+
+### =======================================
+### 3) ENERGY: tariff & storage (mapping’e birebir)
+### =======================================
+vc6:EnergyTariff a rdfs:Class ; rdfs:label "Energy Tariff" .
+vc6:EnergyStorage a rdfs:Class ; rdfs:label "Energy Storage" .
+
+vc6:hasEnergyTariff a rdf:Property, owl:ObjectProperty ;
+  rdfs:domain vc6:EnergyObservation ; rdfs:range vc6:EnergyTariff ;
+  rdfs:label "has energy tariff" .
+
+vc6:hasEnergyStorage a rdf:Property, owl:ObjectProperty ;
+  rdfs:domain vc6:Production ; rdfs:range vc6:EnergyStorage ;
+  rdfs:label "has energy storage" .
+
+# veri özellikleri
+vc6:tariffEURperKWh a owl:DatatypeProperty ; rdfs:range xsd:decimal ;
+  rdfs:label "tariff (EUR/kWh)" .
+vc6:storageCapacityKWh a owl:DatatypeProperty ; rdfs:range xsd:decimal ;
+  rdfs:label "storage capacity (kWh)" .
+vc6:renewableSharePct a owl:DatatypeProperty ; rdfs:range xsd:decimal ;
+  rdfs:label "renewable share (%)" .
+
+### =======================================
+### 4) PRODUCTION LOSSES (QA ile bağlantılı)
+### =======================================
+vc6:ProductionLoss a rdfs:Class ; rdfs:label "Production Loss" ;
+  rdfs:subClassOf vc6:BusinessObject .
+
+vc6:hasLoss a rdf:Property, owl:ObjectProperty ;
+  rdfs:domain vc6:Production ; rdfs:range vc6:ProductionLoss ;
+  rdfs:label "has loss" .
+
+vc6:lossKg a owl:DatatypeProperty ; rdfs:range xsd:decimal ; rdfs:label "loss (kg)" .
+vc6:lossReason a owl:DatatypeProperty ; rdfs:range xsd:string ; rdfs:label "loss reason" .
+
+### =======================================
+### 5) LABOUR / EQUIPMENT as OBSERVATIONS
+### =======================================
+vc6:LabourObservation a rdfs:Class ; rdfs:label "Labour Observation" ;
+  rdfs:subClassOf vc6:Observation .
+
+vc6:EquipmentObservation a rdfs:Class ; rdfs:label "Equipment Observation" ;
+  rdfs:subClassOf vc6:Observation .
+
+# bağlar
+vc6:observesProduction a rdf:Property, owl:ObjectProperty ;
+  rdfs:domain vc6:Observation ; rdfs:range vc6:Production ;
+  rdfs:label "observes production" .
+
+# veri alanları (örnek KPI besleyen metrikler)
+vc6:labourHours a owl:DatatypeProperty ; rdfs:range xsd:decimal ; rdfs:label "labour hours" .
+vc6:headcount   a owl:DatatypeProperty ; rdfs:range xsd:decimal ; rdfs:label "headcount" .
+
+vc6:uptimeHours a owl:DatatypeProperty ; rdfs:range xsd:decimal ; rdfs:label "equipment uptime (h)" .
+vc6:downtimeHours a owl:DatatypeProperty ; rdfs:range xsd:decimal ; rdfs:label "equipment downtime (h)" .
+vc6:maintenanceCost a owl:DatatypeProperty ; rdfs:range xsd:decimal ; rdfs:label "maintenance cost" .
+
