@@ -1,356 +1,356 @@
-"subject","predicate","object"
-"https://dmast.eu/vc6#uptimeHours","http://www.w3.org/2000/01/rdf-schema#label","equipment uptime (h)"
-"n3a2fb5434eb0449aa48e43f20baff9a8b5","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#Restriction"
-"https://dmast.eu/vc6#supportCost","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#DatatypeProperty"
-"https://dmast.eu/vc6#Stock","http://www.w3.org/2000/01/rdf-schema#label","Stock Item"
-"https://dmast.eu/vc6#route","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#DatatypeProperty"
-"https://dmast.eu/vc6#orderedBy","http://www.w3.org/2000/01/rdf-schema#domain","https://dmast.eu/vc6#CustomerOrder"
-"n3a2fb5434eb0449aa48e43f20baff9a8b6","http://www.w3.org/2002/07/owl#onProperty","https://dmast.eu/vc6#belongsToLayer"
-"https://dmast.eu/vc6#belongsToLayer","http://www.w3.org/2000/01/rdf-schema#domain","https://dmast.eu/vc6#BusinessObject"
-"https://dmast.eu/vc6#orderedBy","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#ObjectProperty"
-"https://dmast.eu/vc6#deliveryTime","http://www.w3.org/2000/01/rdf-schema#domain","https://dmast.eu/vc6#LogisticsOperation"
-"https://dmast.eu/vc6#stocksProduct","http://www.w3.org/2000/01/rdf-schema#label","stocks product"
-"https://dmast.eu/vc6#dimension","http://www.w3.org/2000/01/rdf-schema#label","dimension"
-"https://dmast.eu/vc6#Ontology","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#Ontology"
-"https://dmast.eu/vc6#unitPrice","http://www.w3.org/2000/01/rdf-schema#range","http://www.w3.org/2001/XMLSchema#decimal"
-"https://dmast.eu/vc6#observedBy","http://www.w3.org/2000/01/rdf-schema#domain","https://dmast.eu/vc6#EnergyObservation"
-"https://dmast.eu/vc6#departureTime","http://www.w3.org/2000/01/rdf-schema#label","departure time"
-"https://dmast.eu/vc6#produces","http://www.w3.org/2000/01/rdf-schema#label","produces"
-"https://dmast.eu/vc6#orders","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-"n3a2fb5434eb0449aa48e43f20baff9a8b3","http://www.w3.org/2002/07/owl#onProperty","https://dmast.eu/vc6#belongsToLayer"
-"https://dmast.eu/vc6#handlesReturn","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-"https://dmast.eu/vc6#Supplier","http://www.w3.org/2000/01/rdf-schema#subClassOf","https://dmast.eu/vc6#Organization"
-"https://dmast.eu/vc6#ProcessStep","http://www.w3.org/2000/01/rdf-schema#label","Process Step"
-"https://dmast.eu/vc6#Supplier","http://www.w3.org/2000/01/rdf-schema#subClassOf","n3a2fb5434eb0449aa48e43f20baff9a8b1"
-"https://dmast.eu/vc6#hasEnergyStorage","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-"https://dmast.eu/vc6#locationTxt","http://www.w3.org/2000/01/rdf-schema#range","http://www.w3.org/2001/XMLSchema#string"
-"https://dmast.eu/vc6#maintenanceCost","http://www.w3.org/2000/01/rdf-schema#label","maintenance cost"
-"https://dmast.eu/vc6#energyTariff","http://www.w3.org/2000/01/rdf-schema#range","http://www.w3.org/2001/XMLSchema#decimal"
-"https://dmast.eu/vc6#Part","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2000/01/rdf-schema#Class"
-"https://dmast.eu/vc6#fulfills","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-"https://dmast.eu/vc6#hasBOMItem","http://www.w3.org/2000/01/rdf-schema#label","has BOM item"
-"https://dmast.eu/vc6#Stock","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2000/01/rdf-schema#Class"
-"https://dmast.eu/vc6#energyUse","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#DatatypeProperty"
-"https://dmast.eu/vc6#startDate","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#DatatypeProperty"
-"https://dmast.eu/vc6#EnergyTariff","http://www.w3.org/2000/01/rdf-schema#label","Energy Tariff"
-"https://dmast.eu/vc6#Customer","http://www.w3.org/2000/01/rdf-schema#label","Customer"
-"https://dmast.eu/vc6#relatesToOrder","http://www.w3.org/2000/01/rdf-schema#domain","https://dmast.eu/vc6#Return"
-"https://dmast.eu/vc6#isManufacturedFrom","http://www.w3.org/2000/01/rdf-schema#label","is manufactured from"
-"https://dmast.eu/vc6#startDate","http://www.w3.org/2000/01/rdf-schema#range","http://www.w3.org/2001/XMLSchema#dateTime"
-"n3a2fb5434eb0449aa48e43f20baff9a8b1","http://www.w3.org/2002/07/owl#onProperty","https://dmast.eu/vc6#belongsToLayer"
-"https://dmast.eu/vc6#Order","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2000/01/rdf-schema#Class"
-"https://dmast.eu/vc6#Customer","http://www.w3.org/2000/01/rdf-schema#subClassOf","n3a2fb5434eb0449aa48e43f20baff9a8b6"
-"https://dmast.eu/vc6#unitPrice","http://www.w3.org/2000/01/rdf-schema#domain","https://dmast.eu/vc6#Stock"
-"https://dmast.eu/vc6#belongsToLayer","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-"https://dmast.eu/vc6#Organization","http://www.w3.org/2000/01/rdf-schema#subClassOf","https://dmast.eu/vc6#BusinessObject"
-"https://dmast.eu/vc6#CustomerOrder","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2000/01/rdf-schema#Class"
-"https://dmast.eu/vc6#Return","http://www.w3.org/2000/01/rdf-schema#label","Return"
-"https://dmast.eu/vc6#orderedFrom","http://www.w3.org/2000/01/rdf-schema#domain","https://dmast.eu/vc6#SupplierOrder"
-"https://dmast.eu/vc6#id","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#DatatypeProperty"
-"https://dmast.eu/vc6#hasLoss","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#ObjectProperty"
-"https://dmast.eu/vc6#downtimeHours","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#DatatypeProperty"
-"https://dmast.eu/vc6#supportCost","http://www.w3.org/2000/01/rdf-schema#range","http://www.w3.org/2001/XMLSchema#decimal"
-"https://dmast.eu/vc6#WarehouseLayer","http://www.w3.org/2000/01/rdf-schema#subClassOf","https://dmast.eu/vc6#Layer"
-"https://dmast.eu/vc6#usesTransportMode","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#ObjectProperty"
-"https://dmast.eu/vc6#lossKg","http://www.w3.org/2000/01/rdf-schema#label","loss (kg)"
-"https://dmast.eu/vc6#CustomerService","http://www.w3.org/2000/01/rdf-schema#subClassOf","https://dmast.eu/vc6#BusinessObject"
-"https://dmast.eu/vc6#placedAt","http://www.w3.org/2000/01/rdf-schema#label","placed at"
-"https://dmast.eu/vc6#satisfactionScore","http://www.w3.org/2000/01/rdf-schema#range","http://www.w3.org/2001/XMLSchema#decimal"
-"https://dmast.eu/vc6#name","http://www.w3.org/2000/01/rdf-schema#label","name"
-"https://dmast.eu/vc6#storageCapacityKWh","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#DatatypeProperty"
-"https://dmast.eu/vc6#Return","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2000/01/rdf-schema#Class"
-"https://dmast.eu/vc6#revenue","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#DatatypeProperty"
-"https://dmast.eu/vc6#renewableSharePct","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#DatatypeProperty"
-"https://dmast.eu/vc6#feeds","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-"https://dmast.eu/vc6#capacity","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#DatatypeProperty"
-"https://dmast.eu/vc6#SuppliersLayer","http://www.w3.org/2000/01/rdf-schema#subClassOf","https://dmast.eu/vc6#Layer"
-"https://dmast.eu/vc6#placedAt","http://www.w3.org/2000/01/rdf-schema#domain","https://dmast.eu/vc6#BusinessObject"
-"https://dmast.eu/vc6#hasStockItem","http://www.w3.org/2000/01/rdf-schema#range","https://dmast.eu/vc6#Stock"
-"n3a2fb5434eb0449aa48e43f20baff9a8b6","http://www.w3.org/2002/07/owl#hasValue","https://dmast.eu/vc6#CustomersLayer"
-"https://dmast.eu/vc6#maintenanceCost","http://www.w3.org/2000/01/rdf-schema#range","http://www.w3.org/2001/XMLSchema#decimal"
-"https://dmast.eu/vc6#hasStockItem","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#ObjectProperty"
-"https://dmast.eu/vc6#transports","http://www.w3.org/2000/01/rdf-schema#domain","https://dmast.eu/vc6#LogisticsOperation"
-"https://dmast.eu/vc6#QualityAssurance","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2000/01/rdf-schema#Class"
-"https://dmast.eu/vc6#Supplier","http://www.w3.org/2000/01/rdf-schema#label","Supplier"
-"https://dmast.eu/vc6#expirationDate","http://www.w3.org/2000/01/rdf-schema#range","http://www.w3.org/2001/XMLSchema#date"
-"https://dmast.eu/vc6#hasLoss","http://www.w3.org/2000/01/rdf-schema#domain","https://dmast.eu/vc6#Production"
-"https://dmast.eu/vc6#relatesToOrder","http://www.w3.org/2000/01/rdf-schema#label","relates to order"
-"https://dmast.eu/vc6#labourHours","http://www.w3.org/2000/01/rdf-schema#label","labour hours"
-"https://dmast.eu/vc6#InternalLogistics","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2000/01/rdf-schema#Class"
-"https://dmast.eu/vc6#expectedTime","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#DatatypeProperty"
-"https://dmast.eu/vc6#orderedFrom","http://www.w3.org/2000/01/rdf-schema#range","https://dmast.eu/vc6#Supplier"
-"https://dmast.eu/vc6#departureTime","http://www.w3.org/2000/01/rdf-schema#range","http://www.w3.org/2001/XMLSchema#dateTime"
-"n3a2fb5434eb0449aa48e43f20baff9a8b3","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#Restriction"
-"https://dmast.eu/vc6#Organization","http://www.w3.org/2000/01/rdf-schema#label","Organization"
-"https://dmast.eu/vc6#hasEnergyTariff","http://www.w3.org/2000/01/rdf-schema#domain","https://dmast.eu/vc6#EnergyObservation"
-"https://dmast.eu/vc6#feeds","http://www.w3.org/2000/01/rdf-schema#label","feeds (warehouse → production)"
-"https://dmast.eu/vc6#handlesReturn","http://www.w3.org/2000/01/rdf-schema#label","handles return"
-"https://dmast.eu/vc6#expectedTime","http://www.w3.org/2000/01/rdf-schema#range","http://www.w3.org/2001/XMLSchema#dateTime"
-"https://dmast.eu/vc6#LabourObservation","http://www.w3.org/2000/01/rdf-schema#label","Labour Observation"
-"https://dmast.eu/vc6#renewableShare","http://www.w3.org/2000/01/rdf-schema#range","http://www.w3.org/2001/XMLSchema#decimal"
-"https://dmast.eu/vc6#hasStockItem","http://www.w3.org/2000/01/rdf-schema#label","has stock item"
-"https://dmast.eu/vc6#defectiveRate","http://www.w3.org/2000/01/rdf-schema#range","http://www.w3.org/2001/XMLSchema#decimal"
-"https://dmast.eu/vc6#locatedIn","http://www.w3.org/2000/01/rdf-schema#range","https://dmast.eu/vc6#WarehouseLocation"
-"https://dmast.eu/vc6#lossReason","http://www.w3.org/2000/01/rdf-schema#label","loss reason"
-"https://dmast.eu/vc6#uptimeHours","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#DatatypeProperty"
-"https://dmast.eu/vc6#placedAt","http://www.w3.org/2000/01/rdf-schema#range","http://schema.org/Place"
-"https://dmast.eu/vc6#energyTariff","http://www.w3.org/2000/01/rdf-schema#label","energy tariff"
-"https://dmast.eu/vc6#deliversTo","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-"https://dmast.eu/vc6#LabourObservation","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2000/01/rdf-schema#Class"
-"https://dmast.eu/vc6#locatedIn","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-"https://dmast.eu/vc6#EnergyObservation","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2000/01/rdf-schema#Class"
-"https://dmast.eu/vc6#isManufacturedFrom","http://www.w3.org/2000/01/rdf-schema#comment","Final product – component relationship (BOM-like link)."
-"https://dmast.eu/vc6#observedBy","http://www.w3.org/2000/01/rdf-schema#range","https://dmast.eu/vc6#Production"
-"https://dmast.eu/vc6#observedBy","http://www.w3.org/2000/01/rdf-schema#label","observed by (energy → production)"
-"https://dmast.eu/vc6#endDate","http://www.w3.org/2000/01/rdf-schema#range","http://www.w3.org/2001/XMLSchema#dateTime"
-"https://dmast.eu/vc6#headcount","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#DatatypeProperty"
-"https://dmast.eu/vc6#placedAt","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-"https://dmast.eu/vc6#InternalLogistics","http://www.w3.org/2000/01/rdf-schema#subClassOf","https://dmast.eu/vc6#LogisticsOperation"
-"https://dmast.eu/vc6#hasBOMItem","http://www.w3.org/2000/01/rdf-schema#range","https://dmast.eu/vc6#Part"
-"https://dmast.eu/vc6#handlesReturn","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#ObjectProperty"
-"https://dmast.eu/vc6#name","http://www.w3.org/2000/01/rdf-schema#range","http://www.w3.org/2001/XMLSchema#string"
-"https://dmast.eu/vc6#downtimeHours","http://www.w3.org/2000/01/rdf-schema#range","http://www.w3.org/2001/XMLSchema#decimal"
-"https://dmast.eu/vc6#id","http://www.w3.org/2000/01/rdf-schema#label","id"
-"https://dmast.eu/vc6#locationTxt","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#DatatypeProperty"
-"https://dmast.eu/vc6#locatedIn","http://www.w3.org/2000/01/rdf-schema#domain","https://dmast.eu/vc6#Warehouse"
-"https://dmast.eu/vc6#returnReason","http://www.w3.org/2000/01/rdf-schema#range","http://www.w3.org/2001/XMLSchema#string"
-"n3a2fb5434eb0449aa48e43f20baff9a8b6","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#Restriction"
-"https://dmast.eu/vc6#reworkCount","http://www.w3.org/2000/01/rdf-schema#label","rework count"
-"https://dmast.eu/vc6#CustomerOrder","http://www.w3.org/2000/01/rdf-schema#subClassOf","https://dmast.eu/vc6#Order"
-"https://dmast.eu/vc6#ExternalLogisticsLayer","http://www.w3.org/2000/01/rdf-schema#subClassOf","https://dmast.eu/vc6#Layer"
-"https://dmast.eu/vc6#id","http://www.w3.org/2000/01/rdf-schema#range","http://www.w3.org/2001/XMLSchema#string"
-"https://dmast.eu/vc6#transports","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-"https://dmast.eu/vc6#fulfills","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#ObjectProperty"
-"https://dmast.eu/vc6#usesTransportMode","http://www.w3.org/2000/01/rdf-schema#domain","https://dmast.eu/vc6#LogisticsOperation"
-"https://dmast.eu/vc6#lossKg","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#DatatypeProperty"
-"https://dmast.eu/vc6#Process","http://www.w3.org/2000/01/rdf-schema#label","Process"
-"https://dmast.eu/vc6#LogisticsOperation","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2000/01/rdf-schema#Class"
-"https://dmast.eu/vc6#renewableShare","http://www.w3.org/2000/01/rdf-schema#label","renewable share"
-"https://dmast.eu/vc6#condition","http://www.w3.org/2000/01/rdf-schema#range","http://www.w3.org/2001/XMLSchema#string"
-"https://dmast.eu/vc6#route","http://www.w3.org/2000/01/rdf-schema#label","route"
-"https://dmast.eu/vc6#energyUse","http://www.w3.org/2000/01/rdf-schema#range","http://www.w3.org/2001/XMLSchema#decimal"
-"https://dmast.eu/vc6#orderedFrom","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-"https://dmast.eu/vc6#ProductionLayer","http://www.w3.org/2000/01/rdf-schema#subClassOf","https://dmast.eu/vc6#Layer"
-"https://dmast.eu/vc6#WarehouseLayer","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2000/01/rdf-schema#Class"
-"n3a2fb5434eb0449aa48e43f20baff9a8b2","http://www.w3.org/2002/07/owl#onProperty","https://dmast.eu/vc6#belongsToLayer"
-"https://dmast.eu/vc6#hasStockItem","http://www.w3.org/2000/01/rdf-schema#domain","https://dmast.eu/vc6#Warehouse"
-"n3a2fb5434eb0449aa48e43f20baff9a8b2","http://www.w3.org/2002/07/owl#hasValue","https://dmast.eu/vc6#ExternalLogisticsLayer"
-"https://dmast.eu/vc6#ExternalLogistics","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2000/01/rdf-schema#Class"
-"https://dmast.eu/vc6#orders","http://www.w3.org/2000/01/rdf-schema#domain","https://dmast.eu/vc6#Organization"
-"https://dmast.eu/vc6#hasBOMItem","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-"n3a2fb5434eb0449aa48e43f20baff9a8b2","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#Restriction"
-"https://dmast.eu/vc6#belongsToLayer","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#ObjectProperty"
-"https://dmast.eu/vc6#uptimeHours","http://www.w3.org/2000/01/rdf-schema#range","http://www.w3.org/2001/XMLSchema#decimal"
-"https://dmast.eu/vc6#observesProduction","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-"https://dmast.eu/vc6#SuppliersLayer","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2000/01/rdf-schema#Class"
-"https://dmast.eu/vc6#deliveryTime","http://www.w3.org/2000/01/rdf-schema#range","http://www.w3.org/2001/XMLSchema#dateTime"
-"https://dmast.eu/vc6#condition","http://www.w3.org/2000/01/rdf-schema#label","condition"
-"https://dmast.eu/vc6#Production","http://www.w3.org/2000/01/rdf-schema#subClassOf","n3a2fb5434eb0449aa48e43f20baff9a8b5"
-"https://dmast.eu/vc6#inspectionCost","http://www.w3.org/2000/01/rdf-schema#label","inspection cost"
-"https://dmast.eu/vc6#WarehouseLocation","http://www.w3.org/2000/01/rdf-schema#subClassOf","http://schema.org/Place"
-"https://dmast.eu/vc6#tariffEURperKWh","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#DatatypeProperty"
-"https://dmast.eu/vc6#Process","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2000/01/rdf-schema#Class"
-"https://dmast.eu/vc6#ExternalLogisticsLayer","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2000/01/rdf-schema#Class"
-"https://dmast.eu/vc6#Warehouse","http://www.w3.org/2000/01/rdf-schema#subClassOf","n3a2fb5434eb0449aa48e43f20baff9a8b3"
-"https://dmast.eu/vc6#InternalLogisticsLayer","http://www.w3.org/2000/01/rdf-schema#subClassOf","https://dmast.eu/vc6#Layer"
-"https://dmast.eu/vc6#feeds","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#ObjectProperty"
-"https://dmast.eu/vc6#unitPrice","http://www.w3.org/2000/01/rdf-schema#label","unit price"
-"https://dmast.eu/vc6#revenue","http://www.w3.org/2000/01/rdf-schema#label","revenue"
-"https://dmast.eu/vc6#LabourObservation","http://www.w3.org/2000/01/rdf-schema#subClassOf","https://dmast.eu/vc6#Observation"
-"https://dmast.eu/vc6#relatesToOrder","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-"https://dmast.eu/vc6#produces","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-"https://dmast.eu/vc6#weight","http://www.w3.org/2000/01/rdf-schema#label","weight"
-"https://dmast.eu/vc6#ProductionLoss","http://www.w3.org/2000/01/rdf-schema#subClassOf","https://dmast.eu/vc6#BusinessObject"
-"https://dmast.eu/vc6#ExternalLogistics","http://www.w3.org/2000/01/rdf-schema#subClassOf","https://dmast.eu/vc6#LogisticsOperation"
-"https://dmast.eu/vc6#Layer","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2000/01/rdf-schema#Class"
-"https://dmast.eu/vc6#ProductionLayer","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2000/01/rdf-schema#Class"
-"https://dmast.eu/vc6#locationTxt","http://www.w3.org/2000/01/rdf-schema#label","location (text)"
-"https://dmast.eu/vc6#QualityAssurance","http://www.w3.org/2000/01/rdf-schema#label","Quality Assurance"
-"https://dmast.eu/vc6#quantity","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#DatatypeProperty"
-"https://dmast.eu/vc6#ProcessStep","http://www.w3.org/2000/01/rdf-schema#subClassOf","https://dmast.eu/vc6#Process"
-"https://dmast.eu/vc6#hasEnergyStorage","http://www.w3.org/2000/01/rdf-schema#range","https://dmast.eu/vc6#EnergyStorage"
-"https://dmast.eu/vc6#hasEnergyTariff","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#ObjectProperty"
-"https://dmast.eu/vc6#storageCapacityKWh","http://www.w3.org/2000/01/rdf-schema#range","http://www.w3.org/2001/XMLSchema#decimal"
-"https://dmast.eu/vc6#feeds","http://www.w3.org/2000/01/rdf-schema#domain","https://dmast.eu/vc6#Warehouse"
-"https://dmast.eu/vc6#revenue","http://www.w3.org/2000/01/rdf-schema#range","http://www.w3.org/2001/XMLSchema#decimal"
-"https://dmast.eu/vc6#capacity","http://www.w3.org/2000/01/rdf-schema#range","http://www.w3.org/2001/XMLSchema#decimal"
-"https://dmast.eu/vc6#stocksProduct","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#ObjectProperty"
-"https://dmast.eu/vc6#name","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#DatatypeProperty"
-"https://dmast.eu/vc6#deliversTo","http://www.w3.org/2000/01/rdf-schema#label","delivers to"
-"https://dmast.eu/vc6#hasEnergyTariff","http://www.w3.org/2000/01/rdf-schema#range","https://dmast.eu/vc6#EnergyTariff"
-"https://dmast.eu/vc6#lossKg","http://www.w3.org/2000/01/rdf-schema#range","http://www.w3.org/2001/XMLSchema#decimal"
-"https://dmast.eu/vc6#EnergyStorage","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2000/01/rdf-schema#Class"
-"https://dmast.eu/vc6#InternalLogistics","http://www.w3.org/2000/01/rdf-schema#label","Internal Logistics"
-"https://dmast.eu/vc6#usesTransportMode","http://www.w3.org/2000/01/rdf-schema#range","https://dmast.eu/vc6#TransportMode"
-"https://dmast.eu/vc6#Supplier","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2000/01/rdf-schema#Class"
-"https://dmast.eu/vc6#locatedIn","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#ObjectProperty"
-"https://dmast.eu/vc6#InternalLogisticsLayer","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2000/01/rdf-schema#Class"
-"https://dmast.eu/vc6#deliversTo","http://www.w3.org/2000/01/rdf-schema#range","https://dmast.eu/vc6#Organization"
-"https://dmast.eu/vc6#fulfills","http://www.w3.org/2000/01/rdf-schema#range","https://dmast.eu/vc6#CustomerOrder"
-"https://dmast.eu/vc6#hasQA","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-"https://dmast.eu/vc6#orders","http://www.w3.org/2000/01/rdf-schema#range","https://dmast.eu/vc6#Order"
-"https://dmast.eu/vc6#reworkCount","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#DatatypeProperty"
-"https://dmast.eu/vc6#EquipmentObservation","http://www.w3.org/2000/01/rdf-schema#label","Equipment Observation"
-"https://dmast.eu/vc6#dimension","http://www.w3.org/2000/01/rdf-schema#range","http://www.w3.org/2001/XMLSchema#string"
-"https://dmast.eu/vc6#route","http://www.w3.org/2000/01/rdf-schema#range","http://www.w3.org/2001/XMLSchema#string"
-"https://dmast.eu/vc6#hasLoss","http://www.w3.org/2000/01/rdf-schema#range","https://dmast.eu/vc6#ProductionLoss"
-"https://dmast.eu/vc6#deliveryTime","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#DatatypeProperty"
-"https://dmast.eu/vc6#LogisticsOperation","http://www.w3.org/2000/01/rdf-schema#label","Logistics Operation"
-"https://dmast.eu/vc6#belongsToLayer","http://www.w3.org/2000/01/rdf-schema#label","belongs to layer"
-"n3a2fb5434eb0449aa48e43f20baff9a8b4","http://www.w3.org/2002/07/owl#onProperty","https://dmast.eu/vc6#belongsToLayer"
-"https://dmast.eu/vc6#DefectiveProduct","http://www.w3.org/2000/01/rdf-schema#label","Defective Product"
-"https://dmast.eu/vc6#observesProduction","http://www.w3.org/2000/01/rdf-schema#label","observes production"
-"https://dmast.eu/vc6#CustomersLayer","http://www.w3.org/2000/01/rdf-schema#subClassOf","https://dmast.eu/vc6#Layer"
-"https://dmast.eu/vc6#WarehouseLocation","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2000/01/rdf-schema#Class"
-"https://dmast.eu/vc6#transports","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#ObjectProperty"
-"https://dmast.eu/vc6#Production","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2000/01/rdf-schema#Class"
-"https://dmast.eu/vc6#isManufacturedFrom","http://www.w3.org/2000/01/rdf-schema#range","https://dmast.eu/vc6#Part"
-"https://dmast.eu/vc6#hasQA","http://www.w3.org/2000/01/rdf-schema#range","https://dmast.eu/vc6#QualityAssurance"
-"https://dmast.eu/vc6#headcount","http://www.w3.org/2000/01/rdf-schema#range","http://www.w3.org/2001/XMLSchema#decimal"
-"https://dmast.eu/vc6#EnergyStorage","http://www.w3.org/2000/01/rdf-schema#label","Energy Storage"
-"https://dmast.eu/vc6#departureTime","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#DatatypeProperty"
-"https://dmast.eu/vc6#ExternalLogistics","http://www.w3.org/2000/01/rdf-schema#subClassOf","n3a2fb5434eb0449aa48e43f20baff9a8b2"
-"https://dmast.eu/vc6#hasBOMItem","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#ObjectProperty"
-"https://dmast.eu/vc6#handlesReturn","http://www.w3.org/2000/01/rdf-schema#range","https://dmast.eu/vc6#Return"
-"https://dmast.eu/vc6#belongsToLayer","http://www.w3.org/2000/01/rdf-schema#range","https://dmast.eu/vc6#Layer"
-"n3a2fb5434eb0449aa48e43f20baff9a8b3","http://www.w3.org/2002/07/owl#hasValue","https://dmast.eu/vc6#WarehouseLayer"
-"https://dmast.eu/vc6#CustomerService","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2000/01/rdf-schema#Class"
-"https://dmast.eu/vc6#handlesReturn","http://www.w3.org/2000/01/rdf-schema#domain","https://dmast.eu/vc6#CustomerService"
-"https://dmast.eu/vc6#SupplierOrder","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2000/01/rdf-schema#Class"
-"https://dmast.eu/vc6#supportCost","http://www.w3.org/2000/01/rdf-schema#label","support cost"
-"https://dmast.eu/vc6#endDate","http://www.w3.org/2000/01/rdf-schema#label","end date"
-"https://dmast.eu/vc6#observesProduction","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#ObjectProperty"
-"https://dmast.eu/vc6#fulfills","http://www.w3.org/2000/01/rdf-schema#domain","https://dmast.eu/vc6#Product"
-"https://dmast.eu/vc6#lossReason","http://www.w3.org/2000/01/rdf-schema#range","http://www.w3.org/2001/XMLSchema#string"
-"https://dmast.eu/vc6#EnergyObservation","http://www.w3.org/2000/01/rdf-schema#label","Energy Observation"
-"https://dmast.eu/vc6#Product","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2000/01/rdf-schema#Class"
-"https://dmast.eu/vc6#returnReason","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#DatatypeProperty"
-"https://dmast.eu/vc6#Production","http://www.w3.org/2000/01/rdf-schema#label","Production (Black-Box)"
-"https://dmast.eu/vc6#feeds","http://www.w3.org/2000/01/rdf-schema#range","https://dmast.eu/vc6#Production"
-"https://dmast.eu/vc6#isManufacturedFrom","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-"https://dmast.eu/vc6#produces","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#ObjectProperty"
-"https://dmast.eu/vc6#endDate","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#DatatypeProperty"
-"https://dmast.eu/vc6#status","http://www.w3.org/2000/01/rdf-schema#label","status"
-"https://dmast.eu/vc6#orders","http://www.w3.org/2000/01/rdf-schema#label","orders"
-"https://dmast.eu/vc6#downtimeHours","http://www.w3.org/2000/01/rdf-schema#label","equipment downtime (h)"
-"https://dmast.eu/vc6#DefectiveProduct","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2000/01/rdf-schema#Class"
-"https://dmast.eu/vc6#CustomerOrder","http://www.w3.org/2000/01/rdf-schema#label","Customer Order"
-"https://dmast.eu/vc6#renewableSharePct","http://www.w3.org/2000/01/rdf-schema#label","renewable share (%)"
-"https://dmast.eu/vc6#waste","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#DatatypeProperty"
-"https://dmast.eu/vc6#usesTransportMode","http://www.w3.org/2000/01/rdf-schema#label","uses transport mode"
-"https://dmast.eu/vc6#ExternalLogistics","http://www.w3.org/2000/01/rdf-schema#label","External Logistics"
-"https://dmast.eu/vc6#orders","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#ObjectProperty"
-"n3a2fb5434eb0449aa48e43f20baff9a8b4","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#Restriction"
-"https://dmast.eu/vc6#InternalLogistics","http://www.w3.org/2000/01/rdf-schema#subClassOf","n3a2fb5434eb0449aa48e43f20baff9a8b4"
-"https://dmast.eu/vc6#orderedFrom","http://www.w3.org/2000/01/rdf-schema#label","ordered from"
-"https://dmast.eu/vc6#hasEnergyStorage","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#ObjectProperty"
-"https://dmast.eu/vc6#stocksProduct","http://www.w3.org/2000/01/rdf-schema#range","https://dmast.eu/vc6#Product"
-"https://dmast.eu/vc6#satisfactionScore","http://www.w3.org/2000/01/rdf-schema#label","customer satisfaction score"
-"https://dmast.eu/vc6#produces","http://www.w3.org/2000/01/rdf-schema#domain","https://dmast.eu/vc6#Production"
-"https://dmast.eu/vc6#satisfactionScore","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#DatatypeProperty"
-"https://dmast.eu/vc6#status","http://www.w3.org/2000/01/rdf-schema#range","http://www.w3.org/2001/XMLSchema#string"
-"https://dmast.eu/vc6#defectiveRate","http://www.w3.org/2000/01/rdf-schema#label","defective rate"
-"https://dmast.eu/vc6#renewableSharePct","http://www.w3.org/2000/01/rdf-schema#range","http://www.w3.org/2001/XMLSchema#decimal"
-"https://dmast.eu/vc6#revenue","http://www.w3.org/2000/01/rdf-schema#domain","https://dmast.eu/vc6#CustomerOrder"
-"https://dmast.eu/vc6#Product","http://www.w3.org/2000/01/rdf-schema#label","Product"
-"https://dmast.eu/vc6#hasQA","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#ObjectProperty"
-"https://dmast.eu/vc6#EquipmentObservation","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2000/01/rdf-schema#Class"
-"https://dmast.eu/vc6#fulfills","http://www.w3.org/2000/01/rdf-schema#label","fulfills (product → customer order)"
-"https://dmast.eu/vc6#CustomersLayer","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2000/01/rdf-schema#Class"
-"https://dmast.eu/vc6#hasEnergyStorage","http://www.w3.org/2000/01/rdf-schema#domain","https://dmast.eu/vc6#Production"
-"https://dmast.eu/vc6#capacity","http://www.w3.org/2000/01/rdf-schema#label","capacity"
-"https://dmast.eu/vc6#observedBy","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-"https://dmast.eu/vc6#returnReason","http://www.w3.org/2000/01/rdf-schema#label","return reason"
-"https://dmast.eu/vc6#ProcessStep","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2000/01/rdf-schema#Class"
-"https://dmast.eu/vc6#defectiveRate","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#DatatypeProperty"
-"https://dmast.eu/vc6#hasBOMItem","http://www.w3.org/2000/01/rdf-schema#domain","https://dmast.eu/vc6#Product"
-"https://dmast.eu/vc6#energyUse","http://www.w3.org/2000/01/rdf-schema#domain","https://dmast.eu/vc6#EnergyObservation"
-"https://dmast.eu/vc6#labourHours","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#DatatypeProperty"
-"https://dmast.eu/vc6#WarehouseLocation","http://www.w3.org/2000/01/rdf-schema#label","Warehouse Location"
-"https://dmast.eu/vc6#SupplierOrder","http://www.w3.org/2000/01/rdf-schema#subClassOf","https://dmast.eu/vc6#Order"
-"https://dmast.eu/vc6#hasLoss","http://www.w3.org/2000/01/rdf-schema#label","has loss"
-"https://dmast.eu/vc6#Warehouse","http://www.w3.org/2000/01/rdf-schema#label","Warehouse"
-"https://dmast.eu/vc6#Customer","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2000/01/rdf-schema#Class"
-"https://dmast.eu/vc6#hasQA","http://www.w3.org/2000/01/rdf-schema#domain","https://dmast.eu/vc6#Production"
-"https://dmast.eu/vc6#waste","http://www.w3.org/2000/01/rdf-schema#label","waste"
-"https://dmast.eu/vc6#reworkCount","http://www.w3.org/2000/01/rdf-schema#range","http://www.w3.org/2001/XMLSchema#decimal"
-"https://dmast.eu/vc6#headcount","http://www.w3.org/2000/01/rdf-schema#label","headcount"
-"n3a2fb5434eb0449aa48e43f20baff9a8b1","http://www.w3.org/2002/07/owl#hasValue","https://dmast.eu/vc6#SuppliersLayer"
-"n3a2fb5434eb0449aa48e43f20baff9a8b5","http://www.w3.org/2002/07/owl#hasValue","https://dmast.eu/vc6#ProductionLayer"
-"https://dmast.eu/vc6#Return","http://www.w3.org/2000/01/rdf-schema#subClassOf","https://dmast.eu/vc6#BusinessObject"
-"https://dmast.eu/vc6#waste","http://www.w3.org/2000/01/rdf-schema#range","http://www.w3.org/2001/XMLSchema#decimal"
-"https://dmast.eu/vc6#storageCapacityKWh","http://www.w3.org/2000/01/rdf-schema#label","storage capacity (kWh)"
-"https://dmast.eu/vc6#hasEnergyStorage","http://www.w3.org/2000/01/rdf-schema#label","has energy storage"
-"https://dmast.eu/vc6#quantity","http://www.w3.org/2000/01/rdf-schema#domain","https://dmast.eu/vc6#Stock"
-"https://dmast.eu/vc6#Organization","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2000/01/rdf-schema#Class"
-"https://dmast.eu/vc6#energyUse","http://www.w3.org/2000/01/rdf-schema#label","energy consumption"
-"https://dmast.eu/vc6#expectedTime","http://www.w3.org/2000/01/rdf-schema#label","expected delivery time"
-"https://dmast.eu/vc6#startDate","http://www.w3.org/2000/01/rdf-schema#label","start date"
-"https://dmast.eu/vc6#Layer","http://www.w3.org/2000/01/rdf-schema#label","Value-Chain Layer"
-"https://dmast.eu/vc6#Warehouse","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2000/01/rdf-schema#Class"
-"https://dmast.eu/vc6#observesProduction","http://www.w3.org/2000/01/rdf-schema#range","https://dmast.eu/vc6#Production"
-"https://dmast.eu/vc6#dimension","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#DatatypeProperty"
-"https://dmast.eu/vc6#stocksProduct","http://www.w3.org/2000/01/rdf-schema#domain","https://dmast.eu/vc6#Stock"
-"https://dmast.eu/vc6#TransportMode","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2000/01/rdf-schema#Class"
-"https://dmast.eu/vc6#Ontology","http://www.w3.org/2000/01/rdf-schema#comment","Core classes and properties aligned with the project's Target Data Mapping (Supplier, Logistics, Warehouse, Production, QA, Customer, Energy) and the six-stage generic flow."
-"https://dmast.eu/vc6#ProductionLoss","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2000/01/rdf-schema#Class"
-"https://dmast.eu/vc6#orderedBy","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-"https://dmast.eu/vc6#CustomerService","http://www.w3.org/2000/01/rdf-schema#label","Customer Service"
-"https://dmast.eu/vc6#Customer","http://www.w3.org/2000/01/rdf-schema#subClassOf","https://dmast.eu/vc6#Organization"
-"https://dmast.eu/vc6#locatedIn","http://www.w3.org/2000/01/rdf-schema#label","located in"
-"https://dmast.eu/vc6#isManufacturedFrom","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#ObjectProperty"
-"https://dmast.eu/vc6#observesProduction","http://www.w3.org/2000/01/rdf-schema#domain","https://dmast.eu/vc6#Observation"
-"https://dmast.eu/vc6#produces","http://www.w3.org/2000/01/rdf-schema#range","https://dmast.eu/vc6#Product"
-"https://dmast.eu/vc6#deliversTo","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#ObjectProperty"
-"https://dmast.eu/vc6#weight","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#DatatypeProperty"
-"https://dmast.eu/vc6#status","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#DatatypeProperty"
-"https://dmast.eu/vc6#SupplierOrder","http://www.w3.org/2000/01/rdf-schema#label","Supplier Order"
-"https://dmast.eu/vc6#hasEnergyTariff","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-"https://dmast.eu/vc6#tariffEURperKWh","http://www.w3.org/2000/01/rdf-schema#label","tariff (EUR/kWh)"
-"https://dmast.eu/vc6#isManufacturedFrom","http://www.w3.org/2000/01/rdf-schema#domain","https://dmast.eu/vc6#Product"
-"https://dmast.eu/vc6#EquipmentObservation","http://www.w3.org/2000/01/rdf-schema#subClassOf","https://dmast.eu/vc6#Observation"
-"https://dmast.eu/vc6#placedAt","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#ObjectProperty"
-"https://dmast.eu/vc6#stocksProduct","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-"https://dmast.eu/vc6#labourHours","http://www.w3.org/2000/01/rdf-schema#range","http://www.w3.org/2001/XMLSchema#decimal"
-"n3a2fb5434eb0449aa48e43f20baff9a8b5","http://www.w3.org/2002/07/owl#onProperty","https://dmast.eu/vc6#belongsToLayer"
-"https://dmast.eu/vc6#quantity","http://www.w3.org/2000/01/rdf-schema#label","quantity"
-"https://dmast.eu/vc6#condition","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#DatatypeProperty"
-"https://dmast.eu/vc6#EnergyObservation","http://www.w3.org/2000/01/rdf-schema#subClassOf","http://www.w3.org/ns/ssn/Observation"
-"https://dmast.eu/vc6#inspectionCost","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#DatatypeProperty"
-"https://dmast.eu/vc6#tariffEURperKWh","http://www.w3.org/2000/01/rdf-schema#range","http://www.w3.org/2001/XMLSchema#decimal"
-"https://dmast.eu/vc6#expirationDate","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#DatatypeProperty"
-"https://dmast.eu/vc6#EnergyTariff","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2000/01/rdf-schema#Class"
-"n3a2fb5434eb0449aa48e43f20baff9a8b1","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#Restriction"
-"https://dmast.eu/vc6#hasEnergyTariff","http://www.w3.org/2000/01/rdf-schema#label","has energy tariff"
-"https://dmast.eu/vc6#lossReason","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#DatatypeProperty"
-"https://dmast.eu/vc6#","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-"https://dmast.eu/vc6#maintenanceCost","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#DatatypeProperty"
-"https://dmast.eu/vc6#Part","http://www.w3.org/2000/01/rdf-schema#label","Part (Component)"
-"https://dmast.eu/vc6#quantity","http://www.w3.org/2000/01/rdf-schema#range","http://www.w3.org/2001/XMLSchema#decimal"
-"https://dmast.eu/vc6#unitPrice","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#DatatypeProperty"
-"https://dmast.eu/vc6#orderedFrom","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#ObjectProperty"
-"https://dmast.eu/vc6#relatesToOrder","http://www.w3.org/2000/01/rdf-schema#range","https://dmast.eu/vc6#CustomerOrder"
-"https://dmast.eu/vc6#transports","http://www.w3.org/2000/01/rdf-schema#label","transports"
-"https://dmast.eu/vc6#hasLoss","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-"https://dmast.eu/vc6#observedBy","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#ObjectProperty"
-"https://dmast.eu/vc6#TransportMode","http://www.w3.org/2000/01/rdf-schema#label","Transport Mode"
-"https://dmast.eu/vc6#usesTransportMode","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-"https://dmast.eu/vc6#hasQA","http://www.w3.org/2000/01/rdf-schema#label","has QA"
-"n3a2fb5434eb0449aa48e43f20baff9a8b4","http://www.w3.org/2002/07/owl#hasValue","https://dmast.eu/vc6#InternalLogisticsLayer"
-"https://dmast.eu/vc6#Order","http://www.w3.org/2000/01/rdf-schema#label","Order"
-"https://dmast.eu/vc6#renewableShare","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#DatatypeProperty"
-"https://dmast.eu/vc6#energyTariff","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#DatatypeProperty"
-"https://dmast.eu/vc6#deliversTo","http://www.w3.org/2000/01/rdf-schema#domain","https://dmast.eu/vc6#ExternalLogistics"
-"https://dmast.eu/vc6#hasStockItem","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-"https://dmast.eu/vc6#weight","http://www.w3.org/2000/01/rdf-schema#range","http://www.w3.org/2001/XMLSchema#decimal"
-"https://dmast.eu/vc6#transports","http://www.w3.org/2000/01/rdf-schema#range","https://dmast.eu/vc6#Product"
-"https://dmast.eu/vc6#orderedBy","http://www.w3.org/2000/01/rdf-schema#range","https://dmast.eu/vc6#Customer"
-"https://dmast.eu/vc6#orderedBy","http://www.w3.org/2000/01/rdf-schema#label","ordered by"
-"https://dmast.eu/vc6#ProductionLoss","http://www.w3.org/2000/01/rdf-schema#label","Production Loss"
-"https://dmast.eu/vc6#relatesToOrder","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2002/07/owl#ObjectProperty"
-"https://dmast.eu/vc6#deliveryTime","http://www.w3.org/2000/01/rdf-schema#label","delivery time"
-"https://dmast.eu/vc6#expirationDate","http://www.w3.org/2000/01/rdf-schema#label","expiration date"
-"https://dmast.eu/vc6#BusinessObject","http://www.w3.org/1999/02/22-rdf-syntax-ns#type","http://www.w3.org/2000/01/rdf-schema#Class"
-"https://dmast.eu/vc6#Ontology","http://www.w3.org/2000/01/rdf-schema#label","DMaaST Value Chain Core (vc6) – v0.6"
-"https://dmast.eu/vc6#inspectionCost","http://www.w3.org/2000/01/rdf-schema#range","http://www.w3.org/2001/XMLSchema#decimal"
-"https://dmast.eu/vc6#BusinessObject","http://www.w3.org/2000/01/rdf-schema#label","Business Object"
+subject,predicate,object
+https://dmast.eu/vc6#ExternalLogistics,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+https://dmast.eu/vc6#quantity,http://www.w3.org/2000/01/rdf-schema#label,quantity
+https://dmast.eu/vc6#weight,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+https://dmast.eu/vc6#hasEnergyTariff,http://www.w3.org/2000/01/rdf-schema#domain,https://dmast.eu/vc6#EnergyObservation
+https://dmast.eu/vc6#Part,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+https://dmast.eu/vc6#lossKg,http://www.w3.org/2000/01/rdf-schema#label,loss (kg)
+https://dmast.eu/vc6#reworkCount,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2001/XMLSchema#decimal
+https://dmast.eu/vc6#satisfactionScore,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+https://dmast.eu/vc6#weight,http://www.w3.org/2000/01/rdf-schema#label,weight
+https://dmast.eu/vc6#condition,http://www.w3.org/2000/01/rdf-schema#label,condition
+https://dmast.eu/vc6#lossKg,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2001/XMLSchema#decimal
+https://dmast.eu/vc6#departureTime,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2001/XMLSchema#dateTime
+https://dmast.eu/vc6#CustomersLayer,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+https://dmast.eu/vc6#Warehouse,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+https://dmast.eu/vc6#ProductionLayer,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+https://dmast.eu/vc6#ProcessStep,http://www.w3.org/2000/01/rdf-schema#label,Process Step
+https://dmast.eu/vc6#belongsToLayer,http://www.w3.org/2000/01/rdf-schema#range,https://dmast.eu/vc6#Layer
+https://dmast.eu/vc6#observedBy,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+n22159efc027846ce8a344f9f7c9dbaf7b1,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Restriction
+https://dmast.eu/vc6#handlesReturn,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+https://dmast.eu/vc6#ExternalLogistics,http://www.w3.org/2000/01/rdf-schema#label,External Logistics
+https://dmast.eu/vc6#Return,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+https://dmast.eu/vc6#LabourObservation,http://www.w3.org/2000/01/rdf-schema#label,Labour Observation
+https://dmast.eu/vc6#revenue,http://www.w3.org/2000/01/rdf-schema#label,revenue
+https://dmast.eu/vc6#hasStockItem,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+https://dmast.eu/vc6#unitPrice,http://www.w3.org/2000/01/rdf-schema#domain,https://dmast.eu/vc6#Stock
+https://dmast.eu/vc6#supportCost,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+https://dmast.eu/vc6#ExternalLogisticsLayer,http://www.w3.org/2000/01/rdf-schema#subClassOf,https://dmast.eu/vc6#Layer
+https://dmast.eu/vc6#hasQA,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+https://dmast.eu/vc6#feeds,http://www.w3.org/2000/01/rdf-schema#domain,https://dmast.eu/vc6#Warehouse
+https://dmast.eu/vc6#unitPrice,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2001/XMLSchema#decimal
+https://dmast.eu/vc6#name,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2001/XMLSchema#string
+https://dmast.eu/vc6#unitPrice,http://www.w3.org/2000/01/rdf-schema#label,unit price
+https://dmast.eu/vc6#route,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2001/XMLSchema#string
+https://dmast.eu/vc6#hasBOMItem,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+https://dmast.eu/vc6#CustomersLayer,http://www.w3.org/2000/01/rdf-schema#subClassOf,https://dmast.eu/vc6#Layer
+https://dmast.eu/vc6#BusinessObject,http://www.w3.org/2000/01/rdf-schema#label,Business Object
+https://dmast.eu/vc6#BusinessObject,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+https://dmast.eu/vc6#orderedFrom,http://www.w3.org/2000/01/rdf-schema#range,https://dmast.eu/vc6#Supplier
+https://dmast.eu/vc6#Organization,http://www.w3.org/2000/01/rdf-schema#subClassOf,https://dmast.eu/vc6#BusinessObject
+https://dmast.eu/vc6#orderedFrom,http://www.w3.org/2000/01/rdf-schema#domain,https://dmast.eu/vc6#SupplierOrder
+https://dmast.eu/vc6#lossReason,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2001/XMLSchema#string
+https://dmast.eu/vc6#hasLoss,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+https://dmast.eu/vc6#Ontology,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Ontology
+https://dmast.eu/vc6#hasQA,http://www.w3.org/2000/01/rdf-schema#domain,https://dmast.eu/vc6#Production
+n22159efc027846ce8a344f9f7c9dbaf7b2,http://www.w3.org/2002/07/owl#onProperty,https://dmast.eu/vc6#belongsToLayer
+https://dmast.eu/vc6#LabourObservation,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+https://dmast.eu/vc6#orderedBy,http://www.w3.org/2000/01/rdf-schema#label,ordered by
+https://dmast.eu/vc6#renewableSharePct,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+https://dmast.eu/vc6#lossReason,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+https://dmast.eu/vc6#inspectionCost,http://www.w3.org/2000/01/rdf-schema#label,inspection cost
+https://dmast.eu/vc6#energyUse,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+https://dmast.eu/vc6#observesProduction,http://www.w3.org/2000/01/rdf-schema#label,observes production
+https://dmast.eu/vc6#,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+https://dmast.eu/vc6#fulfills,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+https://dmast.eu/vc6#ProcessStep,http://www.w3.org/2000/01/rdf-schema#subClassOf,https://dmast.eu/vc6#Process
+https://dmast.eu/vc6#waste,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2001/XMLSchema#decimal
+https://dmast.eu/vc6#inspectionCost,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2001/XMLSchema#decimal
+https://dmast.eu/vc6#hasEnergyStorage,http://www.w3.org/2000/01/rdf-schema#range,https://dmast.eu/vc6#EnergyStorage
+https://dmast.eu/vc6#tariffEURperKWh,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+https://dmast.eu/vc6#quantity,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+https://dmast.eu/vc6#uptimeHours,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2001/XMLSchema#decimal
+https://dmast.eu/vc6#EquipmentObservation,http://www.w3.org/2000/01/rdf-schema#label,Equipment Observation
+https://dmast.eu/vc6#hasStockItem,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+https://dmast.eu/vc6#feeds,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+https://dmast.eu/vc6#fulfills,http://www.w3.org/2000/01/rdf-schema#label,fulfills (product → customer order)
+https://dmast.eu/vc6#locationTxt,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+https://dmast.eu/vc6#EnergyStorage,http://www.w3.org/2000/01/rdf-schema#label,Energy Storage
+https://dmast.eu/vc6#isManufacturedFrom,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+https://dmast.eu/vc6#transports,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+https://dmast.eu/vc6#observesProduction,http://www.w3.org/2000/01/rdf-schema#domain,https://dmast.eu/vc6#Observation
+https://dmast.eu/vc6#WarehouseLayer,http://www.w3.org/2000/01/rdf-schema#subClassOf,https://dmast.eu/vc6#Layer
+https://dmast.eu/vc6#Production,http://www.w3.org/2000/01/rdf-schema#subClassOf,n22159efc027846ce8a344f9f7c9dbaf7b5
+https://dmast.eu/vc6#orderedBy,http://www.w3.org/2000/01/rdf-schema#range,https://dmast.eu/vc6#Customer
+https://dmast.eu/vc6#revenue,http://www.w3.org/2000/01/rdf-schema#domain,https://dmast.eu/vc6#CustomerOrder
+https://dmast.eu/vc6#usesTransportMode,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+https://dmast.eu/vc6#name,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+https://dmast.eu/vc6#orders,http://www.w3.org/2000/01/rdf-schema#label,orders
+https://dmast.eu/vc6#usesTransportMode,http://www.w3.org/2000/01/rdf-schema#label,uses transport mode
+https://dmast.eu/vc6#route,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+https://dmast.eu/vc6#returnReason,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+https://dmast.eu/vc6#Organization,http://www.w3.org/2000/01/rdf-schema#label,Organization
+https://dmast.eu/vc6#expectedTime,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+https://dmast.eu/vc6#CustomerService,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+https://dmast.eu/vc6#InternalLogistics,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+https://dmast.eu/vc6#fulfills,http://www.w3.org/2000/01/rdf-schema#range,https://dmast.eu/vc6#CustomerOrder
+https://dmast.eu/vc6#hasBOMItem,http://www.w3.org/2000/01/rdf-schema#label,has BOM item
+https://dmast.eu/vc6#Production,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+https://dmast.eu/vc6#storageCapacityKWh,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+https://dmast.eu/vc6#orderedBy,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+https://dmast.eu/vc6#LogisticsOperation,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+https://dmast.eu/vc6#QualityAssurance,http://www.w3.org/2000/01/rdf-schema#label,Quality Assurance
+https://dmast.eu/vc6#isManufacturedFrom,http://www.w3.org/2000/01/rdf-schema#comment,Final product – component relationship (BOM-like link).
+https://dmast.eu/vc6#hasLoss,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+https://dmast.eu/vc6#endDate,http://www.w3.org/2000/01/rdf-schema#label,end date
+https://dmast.eu/vc6#Order,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+https://dmast.eu/vc6#observedBy,http://www.w3.org/2000/01/rdf-schema#domain,https://dmast.eu/vc6#EnergyObservation
+n22159efc027846ce8a344f9f7c9dbaf7b1,http://www.w3.org/2002/07/owl#onProperty,https://dmast.eu/vc6#belongsToLayer
+https://dmast.eu/vc6#ProductionLoss,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+https://dmast.eu/vc6#usesTransportMode,http://www.w3.org/2000/01/rdf-schema#domain,https://dmast.eu/vc6#LogisticsOperation
+https://dmast.eu/vc6#Supplier,http://www.w3.org/2000/01/rdf-schema#label,Supplier
+n22159efc027846ce8a344f9f7c9dbaf7b6,http://www.w3.org/2002/07/owl#hasValue,https://dmast.eu/vc6#CustomersLayer
+https://dmast.eu/vc6#handlesReturn,http://www.w3.org/2000/01/rdf-schema#range,https://dmast.eu/vc6#Return
+https://dmast.eu/vc6#Product,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+https://dmast.eu/vc6#fulfills,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+https://dmast.eu/vc6#condition,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2001/XMLSchema#string
+https://dmast.eu/vc6#tariffEURperKWh,http://www.w3.org/2000/01/rdf-schema#label,tariff (EUR/kWh)
+https://dmast.eu/vc6#locatedIn,http://www.w3.org/2000/01/rdf-schema#range,https://dmast.eu/vc6#WarehouseLocation
+https://dmast.eu/vc6#labourHours,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2001/XMLSchema#decimal
+https://dmast.eu/vc6#fulfills,http://www.w3.org/2000/01/rdf-schema#domain,https://dmast.eu/vc6#Product
+https://dmast.eu/vc6#deliveryTime,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2001/XMLSchema#dateTime
+https://dmast.eu/vc6#feeds,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+https://dmast.eu/vc6#EnergyObservation,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://www.w3.org/ns/ssn/Observation
+https://dmast.eu/vc6#belongsToLayer,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+https://dmast.eu/vc6#headcount,http://www.w3.org/2000/01/rdf-schema#label,headcount
+https://dmast.eu/vc6#isManufacturedFrom,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+https://dmast.eu/vc6#QualityAssurance,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+https://dmast.eu/vc6#handlesReturn,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+n22159efc027846ce8a344f9f7c9dbaf7b3,http://www.w3.org/2002/07/owl#hasValue,https://dmast.eu/vc6#WarehouseLayer
+https://dmast.eu/vc6#isManufacturedFrom,http://www.w3.org/2000/01/rdf-schema#domain,https://dmast.eu/vc6#Product
+https://dmast.eu/vc6#renewableShare,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+https://dmast.eu/vc6#supportCost,http://www.w3.org/2000/01/rdf-schema#label,support cost
+https://dmast.eu/vc6#isManufacturedFrom,http://www.w3.org/2000/01/rdf-schema#label,is manufactured from
+https://dmast.eu/vc6#Process,http://www.w3.org/2000/01/rdf-schema#label,Process
+https://dmast.eu/vc6#downtimeHours,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+https://dmast.eu/vc6#SupplierOrder,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+https://dmast.eu/vc6#orderedBy,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+https://dmast.eu/vc6#ExternalLogistics,http://www.w3.org/2000/01/rdf-schema#subClassOf,n22159efc027846ce8a344f9f7c9dbaf7b2
+https://dmast.eu/vc6#hasBOMItem,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+https://dmast.eu/vc6#orderedBy,http://www.w3.org/2000/01/rdf-schema#domain,https://dmast.eu/vc6#CustomerOrder
+https://dmast.eu/vc6#orders,http://www.w3.org/2000/01/rdf-schema#range,https://dmast.eu/vc6#Order
+https://dmast.eu/vc6#energyUse,http://www.w3.org/2000/01/rdf-schema#domain,https://dmast.eu/vc6#EnergyObservation
+https://dmast.eu/vc6#Supplier,http://www.w3.org/2000/01/rdf-schema#subClassOf,n22159efc027846ce8a344f9f7c9dbaf7b1
+https://dmast.eu/vc6#startDate,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2001/XMLSchema#dateTime
+https://dmast.eu/vc6#handlesReturn,http://www.w3.org/2000/01/rdf-schema#domain,https://dmast.eu/vc6#CustomerService
+https://dmast.eu/vc6#satisfactionScore,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2001/XMLSchema#decimal
+https://dmast.eu/vc6#Layer,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+https://dmast.eu/vc6#maintenanceCost,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+https://dmast.eu/vc6#WarehouseLocation,http://www.w3.org/2000/01/rdf-schema#label,Warehouse Location
+https://dmast.eu/vc6#DefectiveProduct,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+https://dmast.eu/vc6#maintenanceCost,http://www.w3.org/2000/01/rdf-schema#label,maintenance cost
+https://dmast.eu/vc6#observesProduction,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+n22159efc027846ce8a344f9f7c9dbaf7b6,http://www.w3.org/2002/07/owl#onProperty,https://dmast.eu/vc6#belongsToLayer
+https://dmast.eu/vc6#relatesToOrder,http://www.w3.org/2000/01/rdf-schema#domain,https://dmast.eu/vc6#Return
+https://dmast.eu/vc6#WarehouseLocation,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://schema.org/Place
+https://dmast.eu/vc6#ProcessStep,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+https://dmast.eu/vc6#revenue,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2001/XMLSchema#decimal
+https://dmast.eu/vc6#feeds,http://www.w3.org/2000/01/rdf-schema#range,https://dmast.eu/vc6#Production
+https://dmast.eu/vc6#produces,http://www.w3.org/2000/01/rdf-schema#label,produces
+https://dmast.eu/vc6#condition,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+https://dmast.eu/vc6#deliveryTime,http://www.w3.org/2000/01/rdf-schema#domain,https://dmast.eu/vc6#LogisticsOperation
+https://dmast.eu/vc6#energyTariff,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2001/XMLSchema#decimal
+https://dmast.eu/vc6#belongsToLayer,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+https://dmast.eu/vc6#dimension,http://www.w3.org/2000/01/rdf-schema#label,dimension
+https://dmast.eu/vc6#headcount,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+https://dmast.eu/vc6#stocksProduct,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+https://dmast.eu/vc6#Supplier,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+https://dmast.eu/vc6#id,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+https://dmast.eu/vc6#hasLoss,http://www.w3.org/2000/01/rdf-schema#label,has loss
+https://dmast.eu/vc6#SuppliersLayer,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+https://dmast.eu/vc6#renewableSharePct,http://www.w3.org/2000/01/rdf-schema#label,renewable share (%)
+https://dmast.eu/vc6#expirationDate,http://www.w3.org/2000/01/rdf-schema#label,expiration date
+https://dmast.eu/vc6#downtimeHours,http://www.w3.org/2000/01/rdf-schema#label,equipment downtime (h)
+https://dmast.eu/vc6#belongsToLayer,http://www.w3.org/2000/01/rdf-schema#domain,https://dmast.eu/vc6#BusinessObject
+https://dmast.eu/vc6#transports,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+https://dmast.eu/vc6#hasStockItem,http://www.w3.org/2000/01/rdf-schema#range,https://dmast.eu/vc6#Stock
+n22159efc027846ce8a344f9f7c9dbaf7b1,http://www.w3.org/2002/07/owl#hasValue,https://dmast.eu/vc6#SuppliersLayer
+https://dmast.eu/vc6#DefectiveProduct,http://www.w3.org/2000/01/rdf-schema#label,Defective Product
+https://dmast.eu/vc6#SupplierOrder,http://www.w3.org/2000/01/rdf-schema#label,Supplier Order
+https://dmast.eu/vc6#hasQA,http://www.w3.org/2000/01/rdf-schema#label,has QA
+https://dmast.eu/vc6#Process,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+https://dmast.eu/vc6#CustomerOrder,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+https://dmast.eu/vc6#InternalLogistics,http://www.w3.org/2000/01/rdf-schema#subClassOf,n22159efc027846ce8a344f9f7c9dbaf7b4
+https://dmast.eu/vc6#weight,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2001/XMLSchema#decimal
+https://dmast.eu/vc6#name,http://www.w3.org/2000/01/rdf-schema#label,name
+https://dmast.eu/vc6#placedAt,http://www.w3.org/2000/01/rdf-schema#label,placed at
+https://dmast.eu/vc6#CustomerOrder,http://www.w3.org/2000/01/rdf-schema#label,Customer Order
+https://dmast.eu/vc6#energyUse,http://www.w3.org/2000/01/rdf-schema#label,energy consumption
+https://dmast.eu/vc6#relatesToOrder,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+https://dmast.eu/vc6#InternalLogisticsLayer,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+https://dmast.eu/vc6#relatesToOrder,http://www.w3.org/2000/01/rdf-schema#label,relates to order
+https://dmast.eu/vc6#Organization,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+n22159efc027846ce8a344f9f7c9dbaf7b5,http://www.w3.org/2002/07/owl#hasValue,https://dmast.eu/vc6#ProductionLayer
+https://dmast.eu/vc6#departureTime,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+https://dmast.eu/vc6#orders,http://www.w3.org/2000/01/rdf-schema#domain,https://dmast.eu/vc6#Organization
+https://dmast.eu/vc6#CustomerService,http://www.w3.org/2000/01/rdf-schema#subClassOf,https://dmast.eu/vc6#BusinessObject
+https://dmast.eu/vc6#observesProduction,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+https://dmast.eu/vc6#energyUse,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2001/XMLSchema#decimal
+https://dmast.eu/vc6#EnergyObservation,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+https://dmast.eu/vc6#locationTxt,http://www.w3.org/2000/01/rdf-schema#label,location (text)
+https://dmast.eu/vc6#orders,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+https://dmast.eu/vc6#EnergyObservation,http://www.w3.org/2000/01/rdf-schema#label,Energy Observation
+https://dmast.eu/vc6#quantity,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2001/XMLSchema#decimal
+https://dmast.eu/vc6#locationTxt,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2001/XMLSchema#string
+https://dmast.eu/vc6#CustomerService,http://www.w3.org/2000/01/rdf-schema#label,Customer Service
+https://dmast.eu/vc6#stocksProduct,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+https://dmast.eu/vc6#supportCost,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2001/XMLSchema#decimal
+https://dmast.eu/vc6#id,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2001/XMLSchema#string
+https://dmast.eu/vc6#returnReason,http://www.w3.org/2000/01/rdf-schema#label,return reason
+https://dmast.eu/vc6#hasEnergyStorage,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+https://dmast.eu/vc6#defectiveRate,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+https://dmast.eu/vc6#startDate,http://www.w3.org/2000/01/rdf-schema#label,start date
+https://dmast.eu/vc6#hasStockItem,http://www.w3.org/2000/01/rdf-schema#label,has stock item
+https://dmast.eu/vc6#returnReason,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2001/XMLSchema#string
+https://dmast.eu/vc6#capacity,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2001/XMLSchema#decimal
+n22159efc027846ce8a344f9f7c9dbaf7b6,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Restriction
+https://dmast.eu/vc6#orderedFrom,http://www.w3.org/2000/01/rdf-schema#label,ordered from
+https://dmast.eu/vc6#labourHours,http://www.w3.org/2000/01/rdf-schema#label,labour hours
+https://dmast.eu/vc6#EnergyTariff,http://www.w3.org/2000/01/rdf-schema#label,Energy Tariff
+https://dmast.eu/vc6#deliversTo,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+https://dmast.eu/vc6#lossKg,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+https://dmast.eu/vc6#uptimeHours,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+https://dmast.eu/vc6#ProductionLayer,http://www.w3.org/2000/01/rdf-schema#subClassOf,https://dmast.eu/vc6#Layer
+https://dmast.eu/vc6#Part,http://www.w3.org/2000/01/rdf-schema#label,Part (Component)
+https://dmast.eu/vc6#storageCapacityKWh,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2001/XMLSchema#decimal
+https://dmast.eu/vc6#isManufacturedFrom,http://www.w3.org/2000/01/rdf-schema#range,https://dmast.eu/vc6#Part
+https://dmast.eu/vc6#startDate,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+https://dmast.eu/vc6#relatesToOrder,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+https://dmast.eu/vc6#transports,http://www.w3.org/2000/01/rdf-schema#domain,https://dmast.eu/vc6#LogisticsOperation
+https://dmast.eu/vc6#stocksProduct,http://www.w3.org/2000/01/rdf-schema#label,stocks product
+https://dmast.eu/vc6#hasEnergyStorage,http://www.w3.org/2000/01/rdf-schema#label,has energy storage
+https://dmast.eu/vc6#hasEnergyTariff,http://www.w3.org/2000/01/rdf-schema#label,has energy tariff
+https://dmast.eu/vc6#departureTime,http://www.w3.org/2000/01/rdf-schema#label,departure time
+https://dmast.eu/vc6#Production,http://www.w3.org/2000/01/rdf-schema#label,Production (Black-Box)
+https://dmast.eu/vc6#usesTransportMode,http://www.w3.org/2000/01/rdf-schema#range,https://dmast.eu/vc6#TransportMode
+https://dmast.eu/vc6#expirationDate,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+https://dmast.eu/vc6#route,http://www.w3.org/2000/01/rdf-schema#label,route
+https://dmast.eu/vc6#SupplierOrder,http://www.w3.org/2000/01/rdf-schema#subClassOf,https://dmast.eu/vc6#Order
+n22159efc027846ce8a344f9f7c9dbaf7b2,http://www.w3.org/2002/07/owl#hasValue,https://dmast.eu/vc6#ExternalLogisticsLayer
+https://dmast.eu/vc6#tariffEURperKWh,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2001/XMLSchema#decimal
+https://dmast.eu/vc6#observedBy,http://www.w3.org/2000/01/rdf-schema#label,observed by (energy → production)
+https://dmast.eu/vc6#expectedTime,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2001/XMLSchema#dateTime
+https://dmast.eu/vc6#LogisticsOperation,http://www.w3.org/2000/01/rdf-schema#label,Logistics Operation
+https://dmast.eu/vc6#produces,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+https://dmast.eu/vc6#orders,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+https://dmast.eu/vc6#dimension,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+https://dmast.eu/vc6#dimension,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2001/XMLSchema#string
+https://dmast.eu/vc6#deliversTo,http://www.w3.org/2000/01/rdf-schema#domain,https://dmast.eu/vc6#ExternalLogistics
+https://dmast.eu/vc6#observedBy,http://www.w3.org/2000/01/rdf-schema#range,https://dmast.eu/vc6#Production
+https://dmast.eu/vc6#hasEnergyStorage,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+https://dmast.eu/vc6#transports,http://www.w3.org/2000/01/rdf-schema#label,transports
+https://dmast.eu/vc6#belongsToLayer,http://www.w3.org/2000/01/rdf-schema#label,belongs to layer
+https://dmast.eu/vc6#waste,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+https://dmast.eu/vc6#InternalLogistics,http://www.w3.org/2000/01/rdf-schema#label,Internal Logistics
+https://dmast.eu/vc6#reworkCount,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+https://dmast.eu/vc6#renewableShare,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2001/XMLSchema#decimal
+https://dmast.eu/vc6#locatedIn,http://www.w3.org/2000/01/rdf-schema#label,located in
+https://dmast.eu/vc6#Return,http://www.w3.org/2000/01/rdf-schema#label,Return
+https://dmast.eu/vc6#defectiveRate,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2001/XMLSchema#decimal
+https://dmast.eu/vc6#WarehouseLocation,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+https://dmast.eu/vc6#downtimeHours,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2001/XMLSchema#decimal
+https://dmast.eu/vc6#deliversTo,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+https://dmast.eu/vc6#locatedIn,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+https://dmast.eu/vc6#placedAt,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+https://dmast.eu/vc6#hasEnergyTariff,http://www.w3.org/2000/01/rdf-schema#range,https://dmast.eu/vc6#EnergyTariff
+https://dmast.eu/vc6#relatesToOrder,http://www.w3.org/2000/01/rdf-schema#range,https://dmast.eu/vc6#CustomerOrder
+https://dmast.eu/vc6#renewableShare,http://www.w3.org/2000/01/rdf-schema#label,renewable share
+https://dmast.eu/vc6#hasQA,http://www.w3.org/2000/01/rdf-schema#range,https://dmast.eu/vc6#QualityAssurance
+https://dmast.eu/vc6#inspectionCost,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+https://dmast.eu/vc6#hasEnergyTariff,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+https://dmast.eu/vc6#storageCapacityKWh,http://www.w3.org/2000/01/rdf-schema#label,storage capacity (kWh)
+https://dmast.eu/vc6#id,http://www.w3.org/2000/01/rdf-schema#label,id
+https://dmast.eu/vc6#ProductionLoss,http://www.w3.org/2000/01/rdf-schema#label,Production Loss
+n22159efc027846ce8a344f9f7c9dbaf7b4,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Restriction
+https://dmast.eu/vc6#waste,http://www.w3.org/2000/01/rdf-schema#label,waste
+https://dmast.eu/vc6#capacity,http://www.w3.org/2000/01/rdf-schema#label,capacity
+https://dmast.eu/vc6#placedAt,http://www.w3.org/2000/01/rdf-schema#domain,https://dmast.eu/vc6#BusinessObject
+https://dmast.eu/vc6#Ontology,http://www.w3.org/2000/01/rdf-schema#label,DMaaST Value Chain Core (vc6) – v0.6
+https://dmast.eu/vc6#locatedIn,http://www.w3.org/2000/01/rdf-schema#domain,https://dmast.eu/vc6#Warehouse
+https://dmast.eu/vc6#hasBOMItem,http://www.w3.org/2000/01/rdf-schema#domain,https://dmast.eu/vc6#Product
+https://dmast.eu/vc6#produces,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+https://dmast.eu/vc6#unitPrice,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+https://dmast.eu/vc6#satisfactionScore,http://www.w3.org/2000/01/rdf-schema#label,customer satisfaction score
+https://dmast.eu/vc6#stocksProduct,http://www.w3.org/2000/01/rdf-schema#domain,https://dmast.eu/vc6#Stock
+https://dmast.eu/vc6#SuppliersLayer,http://www.w3.org/2000/01/rdf-schema#subClassOf,https://dmast.eu/vc6#Layer
+https://dmast.eu/vc6#CustomerOrder,http://www.w3.org/2000/01/rdf-schema#subClassOf,https://dmast.eu/vc6#Order
+https://dmast.eu/vc6#transports,http://www.w3.org/2000/01/rdf-schema#range,https://dmast.eu/vc6#Product
+https://dmast.eu/vc6#reworkCount,http://www.w3.org/2000/01/rdf-schema#label,rework count
+n22159efc027846ce8a344f9f7c9dbaf7b5,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Restriction
+https://dmast.eu/vc6#hasLoss,http://www.w3.org/2000/01/rdf-schema#domain,https://dmast.eu/vc6#Production
+https://dmast.eu/vc6#headcount,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2001/XMLSchema#decimal
+https://dmast.eu/vc6#ExternalLogistics,http://www.w3.org/2000/01/rdf-schema#subClassOf,https://dmast.eu/vc6#LogisticsOperation
+https://dmast.eu/vc6#Customer,http://www.w3.org/2000/01/rdf-schema#label,Customer
+https://dmast.eu/vc6#ExternalLogisticsLayer,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+https://dmast.eu/vc6#TransportMode,http://www.w3.org/2000/01/rdf-schema#label,Transport Mode
+n22159efc027846ce8a344f9f7c9dbaf7b3,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Restriction
+https://dmast.eu/vc6#LabourObservation,http://www.w3.org/2000/01/rdf-schema#subClassOf,https://dmast.eu/vc6#Observation
+https://dmast.eu/vc6#energyTariff,http://www.w3.org/2000/01/rdf-schema#label,energy tariff
+https://dmast.eu/vc6#InternalLogisticsLayer,http://www.w3.org/2000/01/rdf-schema#subClassOf,https://dmast.eu/vc6#Layer
+https://dmast.eu/vc6#EnergyStorage,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+https://dmast.eu/vc6#locatedIn,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+https://dmast.eu/vc6#placedAt,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+https://dmast.eu/vc6#orderedFrom,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+n22159efc027846ce8a344f9f7c9dbaf7b5,http://www.w3.org/2002/07/owl#onProperty,https://dmast.eu/vc6#belongsToLayer
+https://dmast.eu/vc6#Stock,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+https://dmast.eu/vc6#hasLoss,http://www.w3.org/2000/01/rdf-schema#range,https://dmast.eu/vc6#ProductionLoss
+https://dmast.eu/vc6#Return,http://www.w3.org/2000/01/rdf-schema#subClassOf,https://dmast.eu/vc6#BusinessObject
+https://dmast.eu/vc6#Ontology,http://www.w3.org/2000/01/rdf-schema#comment,"Core classes and properties aligned with the project's Target Data Mapping (Supplier, Logistics, Warehouse, Production, QA, Customer, Energy) and the six-stage generic flow."
+https://dmast.eu/vc6#endDate,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2001/XMLSchema#dateTime
+https://dmast.eu/vc6#Stock,http://www.w3.org/2000/01/rdf-schema#label,Stock Item
+https://dmast.eu/vc6#Warehouse,http://www.w3.org/2000/01/rdf-schema#subClassOf,n22159efc027846ce8a344f9f7c9dbaf7b3
+https://dmast.eu/vc6#labourHours,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+https://dmast.eu/vc6#hasEnergyTariff,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+https://dmast.eu/vc6#maintenanceCost,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2001/XMLSchema#decimal
+https://dmast.eu/vc6#expirationDate,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2001/XMLSchema#date
+https://dmast.eu/vc6#defectiveRate,http://www.w3.org/2000/01/rdf-schema#label,defective rate
+https://dmast.eu/vc6#TransportMode,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+https://dmast.eu/vc6#Customer,http://www.w3.org/2000/01/rdf-schema#subClassOf,n22159efc027846ce8a344f9f7c9dbaf7b6
+https://dmast.eu/vc6#status,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2001/XMLSchema#string
+https://dmast.eu/vc6#InternalLogistics,http://www.w3.org/2000/01/rdf-schema#subClassOf,https://dmast.eu/vc6#LogisticsOperation
+https://dmast.eu/vc6#hasEnergyStorage,http://www.w3.org/2000/01/rdf-schema#domain,https://dmast.eu/vc6#Production
+https://dmast.eu/vc6#capacity,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+https://dmast.eu/vc6#hasBOMItem,http://www.w3.org/2000/01/rdf-schema#range,https://dmast.eu/vc6#Part
+https://dmast.eu/vc6#expectedTime,http://www.w3.org/2000/01/rdf-schema#label,expected delivery time
+https://dmast.eu/vc6#renewableSharePct,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2001/XMLSchema#decimal
+https://dmast.eu/vc6#hasStockItem,http://www.w3.org/2000/01/rdf-schema#domain,https://dmast.eu/vc6#Warehouse
+https://dmast.eu/vc6#handlesReturn,http://www.w3.org/2000/01/rdf-schema#label,handles return
+https://dmast.eu/vc6#status,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+n22159efc027846ce8a344f9f7c9dbaf7b4,http://www.w3.org/2002/07/owl#hasValue,https://dmast.eu/vc6#InternalLogisticsLayer
+https://dmast.eu/vc6#Product,http://www.w3.org/2000/01/rdf-schema#label,Product
+https://dmast.eu/vc6#quantity,http://www.w3.org/2000/01/rdf-schema#domain,https://dmast.eu/vc6#Stock
+https://dmast.eu/vc6#status,http://www.w3.org/2000/01/rdf-schema#label,status
+https://dmast.eu/vc6#ProductionLoss,http://www.w3.org/2000/01/rdf-schema#subClassOf,https://dmast.eu/vc6#BusinessObject
+https://dmast.eu/vc6#WarehouseLayer,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+https://dmast.eu/vc6#deliveryTime,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+https://dmast.eu/vc6#EnergyTariff,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+https://dmast.eu/vc6#Supplier,http://www.w3.org/2000/01/rdf-schema#subClassOf,https://dmast.eu/vc6#Organization
+https://dmast.eu/vc6#orderedFrom,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+n22159efc027846ce8a344f9f7c9dbaf7b4,http://www.w3.org/2002/07/owl#onProperty,https://dmast.eu/vc6#belongsToLayer
+https://dmast.eu/vc6#produces,http://www.w3.org/2000/01/rdf-schema#domain,https://dmast.eu/vc6#Production
+https://dmast.eu/vc6#Customer,http://www.w3.org/2000/01/rdf-schema#subClassOf,https://dmast.eu/vc6#Organization
+https://dmast.eu/vc6#endDate,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+https://dmast.eu/vc6#Warehouse,http://www.w3.org/2000/01/rdf-schema#label,Warehouse
+https://dmast.eu/vc6#revenue,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+https://dmast.eu/vc6#EquipmentObservation,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+https://dmast.eu/vc6#observedBy,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+n22159efc027846ce8a344f9f7c9dbaf7b2,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Restriction
+https://dmast.eu/vc6#energyTariff,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+https://dmast.eu/vc6#deliversTo,http://www.w3.org/2000/01/rdf-schema#label,delivers to
+https://dmast.eu/vc6#deliveryTime,http://www.w3.org/2000/01/rdf-schema#label,delivery time
+https://dmast.eu/vc6#placedAt,http://www.w3.org/2000/01/rdf-schema#range,http://schema.org/Place
+https://dmast.eu/vc6#usesTransportMode,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+https://dmast.eu/vc6#produces,http://www.w3.org/2000/01/rdf-schema#range,https://dmast.eu/vc6#Product
+https://dmast.eu/vc6#lossReason,http://www.w3.org/2000/01/rdf-schema#label,loss reason
+https://dmast.eu/vc6#uptimeHours,http://www.w3.org/2000/01/rdf-schema#label,equipment uptime (h)
+https://dmast.eu/vc6#Customer,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+https://dmast.eu/vc6#hasQA,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+n22159efc027846ce8a344f9f7c9dbaf7b3,http://www.w3.org/2002/07/owl#onProperty,https://dmast.eu/vc6#belongsToLayer
+https://dmast.eu/vc6#observesProduction,http://www.w3.org/2000/01/rdf-schema#range,https://dmast.eu/vc6#Production
+https://dmast.eu/vc6#Order,http://www.w3.org/2000/01/rdf-schema#label,Order
+https://dmast.eu/vc6#Layer,http://www.w3.org/2000/01/rdf-schema#label,Value-Chain Layer
+https://dmast.eu/vc6#EquipmentObservation,http://www.w3.org/2000/01/rdf-schema#subClassOf,https://dmast.eu/vc6#Observation
+https://dmast.eu/vc6#stocksProduct,http://www.w3.org/2000/01/rdf-schema#range,https://dmast.eu/vc6#Product
+https://dmast.eu/vc6#deliversTo,http://www.w3.org/2000/01/rdf-schema#range,https://dmast.eu/vc6#Organization
+https://dmast.eu/vc6#feeds,http://www.w3.org/2000/01/rdf-schema#label,feeds (warehouse → production)
