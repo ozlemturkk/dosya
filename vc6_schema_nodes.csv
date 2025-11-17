@@ -1,0 +1,118 @@
+id,name,uri,category
+c1,Business Object,https://dmast.eu/vc6#BusinessObject,Class
+c2,Customer,https://dmast.eu/vc6#Customer,Class
+c3,Customer Order,https://dmast.eu/vc6#CustomerOrder,Class
+c4,Customer Service,https://dmast.eu/vc6#CustomerService,Class
+c5,CustomersLayer,https://dmast.eu/vc6#CustomersLayer,Class
+c6,Defective Product,https://dmast.eu/vc6#DefectiveProduct,Class
+c7,Energy Observation,https://dmast.eu/vc6#EnergyObservation,Class
+c8,Energy Storage,https://dmast.eu/vc6#EnergyStorage,Class
+c9,Energy Tariff,https://dmast.eu/vc6#EnergyTariff,Class
+c10,Equipment Observation,https://dmast.eu/vc6#EquipmentObservation,Class
+c11,External Logistics,https://dmast.eu/vc6#ExternalLogistics,Class
+c12,ExternalLogisticsLayer,https://dmast.eu/vc6#ExternalLogisticsLayer,Class
+c13,Internal Logistics,https://dmast.eu/vc6#InternalLogistics,Class
+c14,InternalLogisticsLayer,https://dmast.eu/vc6#InternalLogisticsLayer,Class
+c15,Labour Observation,https://dmast.eu/vc6#LabourObservation,Class
+c16,Value-Chain Layer,https://dmast.eu/vc6#Layer,Class
+c17,Logistics Operation,https://dmast.eu/vc6#LogisticsOperation,Class
+c18,Observation,https://dmast.eu/vc6#Observation,Class
+c19,Order,https://dmast.eu/vc6#Order,Class
+c20,Organization,https://dmast.eu/vc6#Organization,Class
+c21,Part (Component),https://dmast.eu/vc6#Part,Class
+c22,Place,https://dmast.eu/vc6#Place,Class
+c23,Process,https://dmast.eu/vc6#Process,Class
+c24,Process Step,https://dmast.eu/vc6#ProcessStep,Class
+c25,Product,https://dmast.eu/vc6#Product,Class
+c26,Production,https://dmast.eu/vc6#Production,Class
+c27,ProductionLayer,https://dmast.eu/vc6#ProductionLayer,Class
+c28,Production Loss,https://dmast.eu/vc6#ProductionLoss,Class
+c29,Quality Assurance,https://dmast.eu/vc6#QualityAssurance,Class
+c30,Return,https://dmast.eu/vc6#Return,Class
+c31,Stock Item,https://dmast.eu/vc6#Stock,Class
+c32,Supplier,https://dmast.eu/vc6#Supplier,Class
+c33,Supplier delivery,https://dmast.eu/vc6#SupplierDelivery,Class
+c34,Supplier Order,https://dmast.eu/vc6#SupplierOrder,Class
+c35,SuppliersLayer,https://dmast.eu/vc6#SuppliersLayer,Class
+c36,Transport Mode,https://dmast.eu/vc6#TransportMode,Class
+c37,Warehouse,https://dmast.eu/vc6#Warehouse,Class
+c38,WarehouseLayer,https://dmast.eu/vc6#WarehouseLayer,Class
+c39,Warehouse Location,https://dmast.eu/vc6#WarehouseLocation,Class
+c40,belongs to layer,https://dmast.eu/vc6#belongsToLayer,Property
+c41,capacity,https://dmast.eu/vc6#capacity,Property
+c42,condition,https://dmast.eu/vc6#condition,Property
+c43,defective rate,https://dmast.eu/vc6#defectiveRate,Property
+c44,delivered by external logistics,https://dmast.eu/vc6#deliveredByLogistics,Property
+c45,delivered to warehouse,https://dmast.eu/vc6#deliveredToWarehouse,Property
+c46,delivers to,https://dmast.eu/vc6#deliversTo,Property
+c47,delivers to customer,https://dmast.eu/vc6#deliversToCustomer,Property
+c48,delivery of supplier order,https://dmast.eu/vc6#deliveryOfOrder,Property
+c49,delivery time,https://dmast.eu/vc6#deliveryTime,Property
+c50,departure time,https://dmast.eu/vc6#departureTime,Property
+c51,dimension,https://dmast.eu/vc6#dimension,Property
+c52,equipment downtime (h),https://dmast.eu/vc6#downtimeHours,Property
+c53,end date,https://dmast.eu/vc6#endDate,Property
+c54,energy tariff,https://dmast.eu/vc6#energyTariff,Property
+c55,energy consumption,https://dmast.eu/vc6#energyUse,Property
+c56,expected delivery time,https://dmast.eu/vc6#expectedTime,Property
+c57,expiration date,https://dmast.eu/vc6#expirationDate,Property
+c58,feeds (warehouse → production),https://dmast.eu/vc6#feeds,Property
+c59,from warehouse location,https://dmast.eu/vc6#fromLocation,Property
+c60,fulfills (product → customer order),https://dmast.eu/vc6#fulfills,Property
+c61,handles return,https://dmast.eu/vc6#handlesReturn,Property
+c62,has BOM item,https://dmast.eu/vc6#hasBOMItem,Property
+c63,has energy storage,https://dmast.eu/vc6#hasEnergyStorage,Property
+c64,has energy tariff,https://dmast.eu/vc6#hasEnergyTariff,Property
+c65,has loss,https://dmast.eu/vc6#hasLoss,Property
+c66,has QA,https://dmast.eu/vc6#hasQA,Property
+c67,has source node,https://dmast.eu/vc6#hasSourceNode,Property
+c68,has stock item,https://dmast.eu/vc6#hasStockItem,Property
+c69,has target node,https://dmast.eu/vc6#hasTargetNode,Property
+c70,headcount,https://dmast.eu/vc6#headcount,Property
+c71,id,https://dmast.eu/vc6#id,Property
+c72,inbound from supplier,https://dmast.eu/vc6#inboundFromSupplier,Property
+c73,inbound to warehouse,https://dmast.eu/vc6#inboundToWarehouse,Property
+c74,inspection cost,https://dmast.eu/vc6#inspectionCost,Property
+c75,internal from production,https://dmast.eu/vc6#internalFromProduction,Property
+c76,internal from warehouse,https://dmast.eu/vc6#internalFromWarehouse,Property
+c77,internal to production,https://dmast.eu/vc6#internalToProduction,Property
+c78,internal to warehouse,https://dmast.eu/vc6#internalToWarehouse,Property
+c79,is manufactured from,https://dmast.eu/vc6#isManufacturedFrom,Property
+c80,labour hours,https://dmast.eu/vc6#labourHours,Property
+c81,located in,https://dmast.eu/vc6#locatedIn,Property
+c82,location (text),https://dmast.eu/vc6#locationTxt,Property
+c83,loss (kg),https://dmast.eu/vc6#lossKg,Property
+c84,loss reason,https://dmast.eu/vc6#lossReason,Property
+c85,maintenance cost,https://dmast.eu/vc6#maintenanceCost,Property
+c86,moves stock item,https://dmast.eu/vc6#movesStock,Property
+c87,name,https://dmast.eu/vc6#name,Property
+c88,observed by (energy → production),https://dmast.eu/vc6#observedBy,Property
+c89,observes production,https://dmast.eu/vc6#observesProduction,Property
+c90,ordered by,https://dmast.eu/vc6#orderedBy,Property
+c91,ordered from,https://dmast.eu/vc6#orderedFrom,Property
+c92,orders,https://dmast.eu/vc6#orders,Property
+c93,outbound from production,https://dmast.eu/vc6#outboundFromProduction,Property
+c94,placed at,https://dmast.eu/vc6#placedAt,Property
+c95,produces,https://dmast.eu/vc6#produces,Property
+c96,quantity,https://dmast.eu/vc6#quantity,Property
+c97,relates to order,https://dmast.eu/vc6#relatesToOrder,Property
+c98,renewable share,https://dmast.eu/vc6#renewableShare,Property
+c99,renewable share (%),https://dmast.eu/vc6#renewableSharePct,Property
+c100,return reason,https://dmast.eu/vc6#returnReason,Property
+c101,revenue,https://dmast.eu/vc6#revenue,Property
+c102,rework count,https://dmast.eu/vc6#reworkCount,Property
+c103,route,https://dmast.eu/vc6#route,Property
+c104,customer satisfaction score,https://dmast.eu/vc6#satisfactionScore,Property
+c105,start date,https://dmast.eu/vc6#startDate,Property
+c106,status,https://dmast.eu/vc6#status,Property
+c107,stocks product,https://dmast.eu/vc6#stocksProduct,Property
+c108,storage capacity (kWh),https://dmast.eu/vc6#storageCapacityKWh,Property
+c109,support cost,https://dmast.eu/vc6#supportCost,Property
+c110,tariff (EUR/kWh),https://dmast.eu/vc6#tariffEURperKWh,Property
+c111,to warehouse location,https://dmast.eu/vc6#toLocation,Property
+c112,transports,https://dmast.eu/vc6#transports,Property
+c113,unit price,https://dmast.eu/vc6#unitPrice,Property
+c114,equipment uptime (h),https://dmast.eu/vc6#uptimeHours,Property
+c115,uses transport mode,https://dmast.eu/vc6#usesTransportMode,Property
+c116,waste,https://dmast.eu/vc6#waste,Property
+c117,weight,https://dmast.eu/vc6#weight,Property
